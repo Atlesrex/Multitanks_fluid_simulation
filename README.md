@@ -4,10 +4,11 @@ Fluid simulation for Digital Twin, (Fluid part)
 
 Blender and UE4 simulation for fluid simulation.
 
-Here there are three folders:
+Here there are four folders:
 - Blender simulation / animation (April-May 2020)
-- The Multitanks on its good size with square pipe + 3D objects for any future changes (May-June 2020)
-- The Multitanks 20x bigger with the good cylindrical pipes + 3D objects for any future changes (July 2020)
+- The Multitanks on its good size with square pipe (May-June 2020)
+- The Multitanks 20x bigger with the good cylindrical pipes (July 2020)
+- 3D objects used
 
 The pump is realized by using the gravity settings. So, there is a reservoir above the system.
 Valves are modelized by plane objects.
