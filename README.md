@@ -10,7 +10,7 @@ Here there are three folders:
 - The Multitanks 20x bigger with the good cylindrical pipes + 3D objects for any future changes (July 2020)
 
 The pump is realized by using the gravity settings. So, there is a reservoir above the system.
-The valves are modelized by plane object.
+The valves are modelized by plane objects.
 
 In each UE4 level there are:
   - The system (tanks, pipes, frame and reservoirs)
