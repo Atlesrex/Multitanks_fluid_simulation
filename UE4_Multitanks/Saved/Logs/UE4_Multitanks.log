@@ -1,4 +1,4 @@
-﻿Log file open, 07/24/20 12:12:46
+﻿Log file open, 07/24/20 12:29:33
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,11 +7,11 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: UE4_Multitanks
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(2124841498) SRandInit(2124841498).
+LogInit: Display: RandInit(-538092050) SRandInit(-538092050).
 LogInit: Read version file with build ID 'cc1760db-84f8-47e9-8986-ba9e72ebb313'
 LogInit: Registered custom module enumerator with build ID 'cc1760db-84f8-47e9-8986-ba9e72ebb313'
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 2.954352
+LogStats: Stats thread started at 0.265932
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 0).
@@ -172,7 +172,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  5.222s to configure plugins.
+LogStreaming: Display: Took  1.145s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -223,825 +223,397 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
 LogInit: Base Directory: D:/UnrealEngine-FleX-4.19.2/UnrealEngine-FleX-4.19.2/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 0
-LogStreaming: Display: Took  0.019s to delete old logs.
+LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2020.07.24-10.12.55:110][  0]LogInit: Selected Device Profile: [Windows]
-[2020.07.24-10.12.55:110][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.07.24-10.12.55:251][  0]LogInit: Computer: PC-GAMING-ALEXI
-[2020.07.24-10.12.55:251][  0]LogInit: User: alexT
-[2020.07.24-10.12.55:251][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.07.24-10.12.55:251][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.07.24-10.12.55:252][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.07.24-10.12.55:253][  0]LogMemory: Platform Memory Stats for Windows
-[2020.07.24-10.12.55:253][  0]LogMemory: Process Physical Memory: 273.12 MB used, 273.12 MB peak
-[2020.07.24-10.12.55:253][  0]LogMemory: Process Virtual Memory: 264.54 MB used, 264.54 MB peak
-[2020.07.24-10.12.55:253][  0]LogMemory: Physical Memory: 6513.89 MB used,  1530.09 MB free, 8043.97 MB total
-[2020.07.24-10.12.55:253][  0]LogMemory: Virtual Memory: 4775.46 MB used,  1530.09 MB free, 134217728.00 MB total
-[2020.07.24-10.12.56:133][  0]LogInit: Using OS detected language (fr-FR).
-[2020.07.24-10.12.56:133][  0]LogInit: Using OS detected locale (fr-FR).
-[2020.07.24-10.12.56:378][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
-[2020.07.24-10.12.57:477][  0]LogStreaming: Display: Took  1.328s to EndInitTextLocalization.
-[2020.07.24-10.12.57:498][  0]LogInit: Setting process to per monitor DPI aware
-[2020.07.24-10.12.58:329][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.07.24-10.12.58:329][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.07.24-10.12.59:318][  0]LogD3D11RHI: D3D11 adapters:
-[2020.07.24-10.12.59:600][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2020.07.24-10.12.59:601][  0]LogD3D11RHI:       4019/0/4021 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.07.24-10.12.59:620][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2020.07.24-10.12.59:620][  0]LogD3D11RHI:       128/0/4021 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.07.24-10.12.59:624][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.07.24-10.12.59:624][  0]LogD3D11RHI:       0/0/4021 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.07.24-10.12.59:624][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.07.24-10.12.59:669][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.07.24-10.12.59:670][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
-[2020.07.24-10.12.59:670][  0]LogWindows: EnumDisplayDevices:
-[2020.07.24-10.12.59:670][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2020.07.24-10.12.59:670][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.07.24-10.12.59:671][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.07.24-10.12.59:671][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2020.07.24-10.12.59:671][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.07.24-10.12.59:671][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2020.07.24-10.12.59:671][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.07.24-10.12.59:671][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.07.24-10.12.59:671][  0]LogRHI: Texture pool is 2813 MB (70% of 4019 MB)
-[2020.07.24-10.12.59:725][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2020.07.24-10.12.59:725][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2020.07.24-10.12.59:725][  0]LogD3D11RHI: Async texture creation enabled
-[2020.07.24-10.13.00:143][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.07.24-10.13.00:297][  0]LogFlex: Display: Initialized Flex with GPU: NVIDIA GeForce GTX 1050
-[2020.07.24-10.13.00:313][  0]LogShaderCompilers: Guid format shader working directory is -47 characters bigger than the processId version (C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Intermediate/Shaders/WorkingDirectory/20760/).
-[2020.07.24-10.13.00:313][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/alexT/AppData/Local/Temp/UnrealShaderWorkingDir/4CDCDF1947FC5480D8E70299A9FDC6FA/'.
-[2020.07.24-10.13.02:944][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2020.07.24-10.13.02:963][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2020.07.24-10.13.02:978][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2020.07.24-10.13.02:993][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2020.07.24-10.13.03:027][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2020.07.24-10.13.03:044][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2020.07.24-10.13.03:059][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2020.07.24-10.13.03:075][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2020.07.24-10.13.03:085][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2020.07.24-10.13.03:100][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2020.07.24-10.13.03:118][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2020.07.24-10.13.03:133][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2020.07.24-10.13.03:147][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2020.07.24-10.13.03:162][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2020.07.24-10.13.03:176][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2020.07.24-10.13.03:208][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2020.07.24-10.13.03:208][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2020.07.24-10.13.03:227][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.07.24-10.13.03:233][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2020.07.24-10.13.03:347][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.07.24-10.13.03:360][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.07.24-10.13.03:360][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.07.24-10.13.04:764][  0]LogXGEController: Cleaning working directory: C:/Users/alexT/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.07.24-10.13.04:764][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.07.24-10.13.04:764][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.07.24-10.13.04:782][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.07.24-10.13.06:669][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.07.24-10.13.07:236][  0]LogDerivedDataCache: Loaded boot cache 0.57s 77MB C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/DerivedDataCache/Boot.ddc.
-[2020.07.24-10.13.07:236][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/DerivedDataCache/Boot.ddc
-[2020.07.24-10.13.07:236][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.07.24-10.13.07:236][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.07.24-10.13.07:270][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.07.24-10.13.07:270][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
-[2020.07.24-10.13.07:297][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
-[2020.07.24-10.13.07:297][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.07.24-10.13.07:297][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.07.24-10.13.07:378][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.07.24-10.13.07:509][  0]LogSlate: Using Freetype 2.6.0
-[2020.07.24-10.13.07:624][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.07.24-10.13.07:624][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.07.24-10.13.15:964][  0]LogAssetRegistry: FAssetRegistry took 0.0503 seconds to start up
-[2020.07.24-10.13.20:194][  0]LogInit: Selected Device Profile: [Windows]
-[2020.07.24-10.13.24:871][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.07.24-10.13.24:871][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2020.07.24-10.13.24:871][  0]LogMeshReduction: No automatic mesh merging module available
-[2020.07.24-10.13.24:871][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.07.24-10.13.24:871][  0]LogMeshMerging: No automatic mesh merging module available
-[2020.07.24-10.13.24:871][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.07.24-10.13.26:791][  0]LogNetVersion: UE4_Multitanks , NetCL: 0, EngineNetVer: 2, GameNetVer: 0 (Checksum: 792874131)
-[2020.07.24-10.13.35:514][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.157630 seconds
-[2020.07.24-10.13.35:591][  0]LogUObjectArray: 36945 objects as part of root set at end of initial load.
-[2020.07.24-10.13.35:591][  0]LogUObjectAllocator: 7383280 out of 0 bytes used by permanent object pool.
-[2020.07.24-10.13.35:591][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.07.24-10.13.43:290][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2020.07.24-10.13.43:290][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2020.07.24-10.13.43:308][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2020.07.24-10.13.43:308][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2020.07.24-10.13.43:308][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2020.07.24-10.13.43:308][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2020.07.24-10.13.43:308][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2020.07.24-10.13.43:308][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2020.07.24-10.13.43:308][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2020.07.24-10.13.43:308][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2020.07.24-10.13.43:308][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2020.07.24-10.13.43:308][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2020.07.24-10.13.43:309][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2020.07.24-10.13.43:309][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2020.07.24-10.13.43:309][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2020.07.24-10.13.43:309][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2020.07.24-10.13.43:309][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2020.07.24-10.13.43:309][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2020.07.24-10.13.43:309][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
-[2020.07.24-10.13.43:309][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
-[2020.07.24-10.13.43:309][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2020.07.24-10.13.43:309][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2020.07.24-10.13.43:309][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
-[2020.07.24-10.13.43:309][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
-[2020.07.24-10.13.43:309][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2020.07.24-10.13.43:309][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2020.07.24-10.13.43:309][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2020.07.24-10.13.43:309][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2020.07.24-10.13.43:309][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2020.07.24-10.13.43:309][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2020.07.24-10.13.43:309][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2020.07.24-10.13.43:309][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2020.07.24-10.13.43:309][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2020.07.24-10.13.43:309][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2020.07.24-10.13.43:309][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2020.07.24-10.13.43:309][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2020.07.24-10.13.43:309][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2020.07.24-10.13.43:309][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2020.07.24-10.13.43:309][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2020.07.24-10.13.43:309][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2020.07.24-10.13.43:309][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2020.07.24-10.13.43:309][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2020.07.24-10.13.43:309][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
-[2020.07.24-10.13.43:309][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
-[2020.07.24-10.13.43:309][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2020.07.24-10.13.43:309][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2020.07.24-10.13.43:309][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
-[2020.07.24-10.13.43:309][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
-[2020.07.24-10.13.43:332][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
-[2020.07.24-10.13.43:332][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
-[2020.07.24-10.13.43:332][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2020.07.24-10.13.43:332][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2020.07.24-10.13.43:332][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2020.07.24-10.13.43:333][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2020.07.24-10.13.43:333][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
-[2020.07.24-10.13.43:333][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
-[2020.07.24-10.13.43:333][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2020.07.24-10.13.43:333][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2020.07.24-10.13.43:333][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2020.07.24-10.13.43:333][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2020.07.24-10.13.43:333][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
-[2020.07.24-10.13.43:333][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
-[2020.07.24-10.13.43:333][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2020.07.24-10.13.43:333][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2020.07.24-10.13.43:333][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2020.07.24-10.13.43:333][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2020.07.24-10.13.43:333][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
-[2020.07.24-10.13.43:333][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
-[2020.07.24-10.13.43:333][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2020.07.24-10.13.43:333][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2020.07.24-10.13.43:333][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2020.07.24-10.13.43:333][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2020.07.24-10.13.43:333][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
-[2020.07.24-10.13.43:333][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
-[2020.07.24-10.13.43:333][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2020.07.24-10.13.43:333][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2020.07.24-10.13.43:333][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2020.07.24-10.13.43:333][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2020.07.24-10.13.43:333][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
-[2020.07.24-10.13.43:333][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
-[2020.07.24-10.13.43:333][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2020.07.24-10.13.43:333][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2020.07.24-10.13.43:333][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2020.07.24-10.13.43:333][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2020.07.24-10.13.43:333][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
-[2020.07.24-10.13.43:333][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
-[2020.07.24-10.13.43:333][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2020.07.24-10.13.43:333][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2020.07.24-10.13.43:333][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2020.07.24-10.13.43:334][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2020.07.24-10.13.43:334][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
-[2020.07.24-10.13.43:334][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
-[2020.07.24-10.13.43:334][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2020.07.24-10.13.43:334][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2020.07.24-10.13.43:334][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2020.07.24-10.13.43:334][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2020.07.24-10.13.43:334][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
-[2020.07.24-10.13.43:334][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
-[2020.07.24-10.13.43:334][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2020.07.24-10.13.43:334][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2020.07.24-10.13.43:334][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
-[2020.07.24-10.13.43:334][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
-[2020.07.24-10.13.52:861][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.07.24-10.13.52:925][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.07.24-10.13.54:621][  0]SourceControl: Source control is disabled
-[2020.07.24-10.13.54:629][  0]SourceControl: Source control is disabled
-[2020.07.24-10.13.54:815][  0]SourceControl: Source control is disabled
-[2020.07.24-10.13.54:948][  0]SourceControl: Source control is disabled
-[2020.07.24-10.13.58:042][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.07.24-10.13.58:442][  0]LogOcInput: OculusInput pre-init called
-[2020.07.24-10.13.59:820][  0]LogEngine: Initializing Engine...
-[2020.07.24-10.14.00:009][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.07.24-10.14.00:044][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.001 s
-[2020.07.24-10.14.00:045][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.07.24-10.14.02:136][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.07.24-10.14.02:794][  0]LogInit: XAudio2 using 'Casque pour téléphone (CORSAIR VIRTUOSO SE USB Gaming Headset)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
-[2020.07.24-10.14.02:982][  0]LogInit: FAudioDevice initialized.
-[2020.07.24-10.14.03:126][  0]LogDerivedDataCache: Saved boot cache 0.14s 77MB C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/DerivedDataCache/Boot.ddc.
-[2020.07.24-10.14.03:132][  0]LogInit: Texture streaming: Enabled
-[2020.07.24-10.14.03:245][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.07.24-10.14.08:513][  0]LogInit: Transaction tracking system initialized
-[2020.07.24-10.14.08:954][  0]BlueprintLog: New page: Editor Load
-[2020.07.24-10.14.10:417][  0]LocalizationService: Localization service is disabled
-[2020.07.24-10.14.12:046][  0]LogConsoleResponse: Display: 
-[2020.07.24-10.14.17:853][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/' took 0.01s
-[2020.07.24-10.14.17:853][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.07.24-10.14.17:853][  0]LogCook: Display: Mobile HDR setting 1
-[2020.07.24-10.14.17:853][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2020.07.24-10.14.17:853][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.07.24-10.14.17:853][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.07.24-10.14.25:624][  0]SourceControl: Source control is disabled
-[2020.07.24-10.14.25:624][  0]Cmd: MAP LOAD FILE="C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Multi-tanks.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.07.24-10.14.25:628][  0]LightingResults: New page: Lighting Build
-[2020.07.24-10.14.25:630][  0]MapCheck: New page: Map Check
-[2020.07.24-10.14.25:630][  0]LightingResults: New page: Lighting Build
-[2020.07.24-10.14.26:279][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexBlueMaterial'
-[2020.07.24-10.14.26:279][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexBlueMaterial' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Multi-tanks.umap.
-[2020.07.24-10.14.26:279][  0]LoadErrors: Error: /Game/Level/Multi-tanks : Can't find file for asset. /Game/Level/Mater/flexBlueMaterial
-[2020.07.24-10.14.26:279][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSandMaterial'
-[2020.07.24-10.14.26:279][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSandMaterial' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Multi-tanks.umap.
-[2020.07.24-10.14.26:279][  0]LoadErrors: Error: /Game/Level/Multi-tanks : Can't find file for asset. /Game/Level/Mater/flexSandMaterial
-[2020.07.24-10.14.26:280][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialTranslucentSimple'
-[2020.07.24-10.14.26:280][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialTranslucentSimple' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Multi-tanks.umap.
-[2020.07.24-10.14.26:280][  0]LoadErrors: Error: /Game/Level/Multi-tanks : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialTranslucentSimple
-[2020.07.24-10.14.26:280][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceSolid'
-[2020.07.24-10.14.26:280][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceSolid' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Multi-tanks.umap.
-[2020.07.24-10.14.26:280][  0]LoadErrors: Error: /Game/Level/Multi-tanks : Can't find file for asset. /Game/Level/Mater/flexSurfaceSolid
-[2020.07.24-10.14.26:342][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
-[2020.07.24-10.14.26:342][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Fluid/Fluid_Pump.uasset.
-[2020.07.24-10.14.26:342][  0]LoadErrors: Error: /Game/Level/Fluid/Fluid_Pump : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialOpaque
-[2020.07.24-10.14.26:342][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
-[2020.07.24-10.14.26:342][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Fluid/Fluid_Pump.uasset.
-[2020.07.24-10.14.26:343][  0]LoadErrors: Error: /Game/Level/Fluid/Fluid_Pump : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialOpaque
-[2020.07.24-10.14.26:351][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
-[2020.07.24-10.14.26:352][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Fluid/Fluid_Tank_1.uasset.
-[2020.07.24-10.14.26:352][  0]LoadErrors: Error: /Game/Level/Fluid/Fluid_Tank_1 : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialOpaque
-[2020.07.24-10.14.26:352][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
-[2020.07.24-10.14.26:352][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Fluid/Fluid_Tank_1.uasset.
-[2020.07.24-10.14.26:352][  0]LoadErrors: Error: /Game/Level/Fluid/Fluid_Tank_1 : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialOpaque
-[2020.07.24-10.14.26:360][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
-[2020.07.24-10.14.26:360][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Fluid/Fluid_Tank_2.uasset.
-[2020.07.24-10.14.26:360][  0]LoadErrors: Error: /Game/Level/Fluid/Fluid_Tank_2 : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialOpaque
-[2020.07.24-10.14.26:361][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
-[2020.07.24-10.14.26:361][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Fluid/Fluid_Tank_2.uasset.
-[2020.07.24-10.14.26:361][  0]LoadErrors: Error: /Game/Level/Fluid/Fluid_Tank_2 : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialOpaque
-[2020.07.24-10.14.26:369][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
-[2020.07.24-10.14.26:369][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Fluid/Fluid_Tank_3.uasset.
-[2020.07.24-10.14.26:369][  0]LoadErrors: Error: /Game/Level/Fluid/Fluid_Tank_3 : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialOpaque
-[2020.07.24-10.14.26:369][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
-[2020.07.24-10.14.26:370][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Fluid/Fluid_Tank_3.uasset.
-[2020.07.24-10.14.26:370][  0]LoadErrors: Error: /Game/Level/Fluid/Fluid_Tank_3 : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialOpaque
-[2020.07.24-10.14.26:371][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexBlueMaterial'
-[2020.07.24-10.14.26:371][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexBlueMaterial' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Multi-tanks.umap.
-[2020.07.24-10.14.26:371][  0]LoadErrors: Error: /Game/Level/Multi-tanks : Can't find file for asset. /Game/Level/Mater/flexBlueMaterial
-[2020.07.24-10.14.26:372][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSandMaterial'
-[2020.07.24-10.14.26:372][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSandMaterial' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Multi-tanks.umap.
-[2020.07.24-10.14.26:372][  0]LoadErrors: Error: /Game/Level/Multi-tanks : Can't find file for asset. /Game/Level/Mater/flexSandMaterial
-[2020.07.24-10.14.26:372][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialTranslucentSimple'
-[2020.07.24-10.14.26:372][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialTranslucentSimple' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Multi-tanks.umap.
-[2020.07.24-10.14.26:372][  0]LoadErrors: Error: /Game/Level/Multi-tanks : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialTranslucentSimple
-[2020.07.24-10.14.26:372][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceSolid'
-[2020.07.24-10.14.26:372][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceSolid' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Multi-tanks.umap.
-[2020.07.24-10.14.26:372][  0]LoadErrors: Error: /Game/Level/Multi-tanks : Can't find file for asset. /Game/Level/Mater/flexSurfaceSolid
-[2020.07.24-10.14.26:375][  0]LogLinker: Warning: Can't find file '/Game/Flex/flexBlueMaterial'
-[2020.07.24-10.14.26:375][  0]LogLinker: Warning: Can't find file for asset '/Game/Flex/flexBlueMaterial' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/System/Multi_Tanks_Reservoir.uasset.
-[2020.07.24-10.14.26:375][  0]LoadErrors: Error: /Game/Level/System/Multi_Tanks_Reservoir : Can't find file for asset. /Game/Flex/flexBlueMaterial
-[2020.07.24-10.14.26:375][  0]LogLinker: Warning: Can't find file '/Game/Flex/flexBlueMaterial'
-[2020.07.24-10.14.26:375][  0]LogLinker: Warning: Can't find file for asset '/Game/Flex/flexBlueMaterial' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/System/Multi_Tanks_Reservoir.uasset.
-[2020.07.24-10.14.26:375][  0]LoadErrors: Error: /Game/Level/System/Multi_Tanks_Reservoir : Can't find file for asset. /Game/Flex/flexBlueMaterial
-[2020.07.24-10.14.26:379][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexOrangeMaterial'
-[2020.07.24-10.14.26:380][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexOrangeMaterial' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/System/Multi_Tanks_Tank3Frame.uasset.
-[2020.07.24-10.14.26:380][  0]LoadErrors: Error: /Game/Level/System/Multi_Tanks_Tank3Frame : Can't find file for asset. /Game/Level/Mater/flexOrangeMaterial
-[2020.07.24-10.14.26:380][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexOrangeMaterial'
-[2020.07.24-10.14.26:380][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexOrangeMaterial' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/System/Multi_Tanks_Tank3Frame.uasset.
-[2020.07.24-10.14.26:380][  0]LoadErrors: Error: /Game/Level/System/Multi_Tanks_Tank3Frame : Can't find file for asset. /Game/Level/Mater/flexOrangeMaterial
-[2020.07.24-10.14.26:409][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
-[2020.07.24-10.14.26:409][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialOpaque.flexSurfaceMaterialOpaque Referenced by Fluid_Tank_2
-[2020.07.24-10.14.26:409][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading NULL.
-[2020.07.24-10.14.26:409][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialOpaque.flexSurfaceMaterialOpaque Referenced by Fluid_Tank_2
-[2020.07.24-10.14.26:410][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexOrangeMaterial'
-[2020.07.24-10.14.26:410][  0]LoadErrors: Failed to load /Game/Level/Mater/flexOrangeMaterial.flexOrangeMaterial Referenced by Multi_Tanks_Tank3Frame
-[2020.07.24-10.14.26:410][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexOrangeMaterial' while loading NULL.
-[2020.07.24-10.14.26:410][  0]LoadErrors: Failed to load /Game/Level/Mater/flexOrangeMaterial.flexOrangeMaterial Referenced by Multi_Tanks_Tank3Frame
-[2020.07.24-10.14.26:411][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexOrangeMaterial'
-[2020.07.24-10.14.26:411][  0]LoadErrors: Failed to load /Game/Level/Mater/flexOrangeMaterial.flexOrangeMaterial Referenced by Multi_Tanks_Tank3Frame
-[2020.07.24-10.14.26:411][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexOrangeMaterial' while loading NULL.
-[2020.07.24-10.14.26:411][  0]LoadErrors: Failed to load /Game/Level/Mater/flexOrangeMaterial.flexOrangeMaterial Referenced by Multi_Tanks_Tank3Frame
-[2020.07.24-10.14.26:411][  0]LogLinker: Warning: Can't find file '/Game/Flex/flexBlueMaterial'
-[2020.07.24-10.14.26:411][  0]LoadErrors: Failed to load /Game/Flex/flexBlueMaterial.flexBlueMaterial Referenced by Multi_Tanks_Reservoir
-[2020.07.24-10.14.26:411][  0]LogLinker: Warning: Can't find file for asset '/Game/Flex/flexBlueMaterial' while loading NULL.
-[2020.07.24-10.14.26:411][  0]LoadErrors: Failed to load /Game/Flex/flexBlueMaterial.flexBlueMaterial Referenced by Multi_Tanks_Reservoir
-[2020.07.24-10.14.26:411][  0]LogLinker: Warning: Can't find file '/Game/Flex/flexBlueMaterial'
-[2020.07.24-10.14.26:411][  0]LoadErrors: Failed to load /Game/Flex/flexBlueMaterial.flexBlueMaterial Referenced by Multi_Tanks_Reservoir
-[2020.07.24-10.14.26:412][  0]LogLinker: Warning: Can't find file for asset '/Game/Flex/flexBlueMaterial' while loading NULL.
-[2020.07.24-10.14.26:412][  0]LoadErrors: Failed to load /Game/Flex/flexBlueMaterial.flexBlueMaterial Referenced by Multi_Tanks_Reservoir
-[2020.07.24-10.14.26:412][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
-[2020.07.24-10.14.26:412][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialOpaque.flexSurfaceMaterialOpaque Referenced by Fluid_Tank_3
-[2020.07.24-10.14.26:412][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading NULL.
-[2020.07.24-10.14.26:412][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialOpaque.flexSurfaceMaterialOpaque Referenced by Fluid_Tank_3
-[2020.07.24-10.14.26:413][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
-[2020.07.24-10.14.26:413][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialOpaque.flexSurfaceMaterialOpaque Referenced by Fluid_Tank_1
-[2020.07.24-10.14.26:413][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading NULL.
-[2020.07.24-10.14.26:413][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialOpaque.flexSurfaceMaterialOpaque Referenced by Fluid_Tank_1
-[2020.07.24-10.14.26:416][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
-[2020.07.24-10.14.26:416][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialOpaque.flexSurfaceMaterialOpaque Referenced by Fluid_Pump
-[2020.07.24-10.14.26:416][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading NULL.
-[2020.07.24-10.14.26:416][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialOpaque.flexSurfaceMaterialOpaque Referenced by Fluid_Pump
-[2020.07.24-10.14.26:417][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexBlueMaterial'
-[2020.07.24-10.14.26:417][  0]LoadErrors: Failed to load /Game/Level/Mater/flexBlueMaterial.flexBlueMaterial Referenced by StaticMeshComponent0
-[2020.07.24-10.14.26:417][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexBlueMaterial' while loading NULL.
-[2020.07.24-10.14.26:418][  0]LoadErrors: Failed to load /Game/Level/Mater/flexBlueMaterial.flexBlueMaterial Referenced by StaticMeshComponent0
-[2020.07.24-10.14.26:418][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSandMaterial'
-[2020.07.24-10.14.26:418][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSandMaterial.flexSandMaterial Referenced by StaticMeshComponent0
-[2020.07.24-10.14.26:418][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSandMaterial' while loading NULL.
-[2020.07.24-10.14.26:418][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSandMaterial.flexSandMaterial Referenced by StaticMeshComponent0
-[2020.07.24-10.14.26:419][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSandMaterial'
-[2020.07.24-10.14.26:419][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSandMaterial.flexSandMaterial Referenced by StaticMeshComponent0
-[2020.07.24-10.14.26:419][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSandMaterial' while loading NULL.
-[2020.07.24-10.14.26:419][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSandMaterial.flexSandMaterial Referenced by StaticMeshComponent0
-[2020.07.24-10.14.26:419][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSandMaterial'
-[2020.07.24-10.14.26:419][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSandMaterial.flexSandMaterial Referenced by StaticMeshComponent0
-[2020.07.24-10.14.26:419][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSandMaterial' while loading NULL.
-[2020.07.24-10.14.26:419][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSandMaterial.flexSandMaterial Referenced by StaticMeshComponent0
-[2020.07.24-10.14.26:419][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialTranslucentSimple'
-[2020.07.24-10.14.26:419][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialTranslucentSimple.flexSurfaceMaterialTranslucentSimple Referenced by StaticMeshComponent0
-[2020.07.24-10.14.26:419][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialTranslucentSimple' while loading NULL.
-[2020.07.24-10.14.26:419][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialTranslucentSimple.flexSurfaceMaterialTranslucentSimple Referenced by StaticMeshComponent0
-[2020.07.24-10.14.26:420][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceSolid'
-[2020.07.24-10.14.26:420][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceSolid.flexSurfaceSolid Referenced by StaticMeshComponent0
-[2020.07.24-10.14.26:420][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceSolid' while loading NULL.
-[2020.07.24-10.14.26:420][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceSolid.flexSurfaceSolid Referenced by StaticMeshComponent0
-[2020.07.24-10.14.26:420][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceSolid'
-[2020.07.24-10.14.26:420][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceSolid.flexSurfaceSolid Referenced by StaticMeshComponent0
-[2020.07.24-10.14.26:420][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceSolid' while loading NULL.
-[2020.07.24-10.14.26:420][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceSolid.flexSurfaceSolid Referenced by StaticMeshComponent0
-[2020.07.24-10.14.26:420][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceSolid'
-[2020.07.24-10.14.26:420][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceSolid.flexSurfaceSolid Referenced by StaticMeshComponent0
-[2020.07.24-10.14.26:420][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceSolid' while loading NULL.
-[2020.07.24-10.14.26:420][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceSolid.flexSurfaceSolid Referenced by StaticMeshComponent0
-[2020.07.24-10.14.26:421][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceSolid'
-[2020.07.24-10.14.26:421][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceSolid.flexSurfaceSolid Referenced by StaticMeshComponent0
-[2020.07.24-10.14.26:421][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceSolid' while loading NULL.
-[2020.07.24-10.14.26:421][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceSolid.flexSurfaceSolid Referenced by StaticMeshComponent0
-[2020.07.24-10.14.29:981][  0]LogAIModule: Creating AISystem for world Multi-tanks
-[2020.07.24-10.14.30:977][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.07.24-10.14.31:018][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.07.24-10.14.31:086][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67,729ms to complete.
-[2020.07.24-10.14.31:086][  0]LogFileHelpers: Loading map 'Multi-tanks' took 5.462
-[2020.07.24-10.14.32:766][  0]LogCollectionManager: Loaded 0 collections in 0.001145 seconds
-[2020.07.24-10.14.32:807][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Collections/' took 0.01s
-[2020.07.24-10.14.32:807][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Developers/alexT/Collections/' took 0.01s
-[2020.07.24-10.14.32:807][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Collections/' took 0.01s
-[2020.07.24-10.14.32:807][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2020.07.24-10.14.32:815][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2478 classes and 562 folders.
-[2020.07.24-10.14.32:941][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.07.24-10.14.39:608][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.07.24-10.14.40:668][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2020.07.24-10.14.41:272][  0]LogSlate: Took 0.070121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.07.24-10.14.41:426][  0]LogSlate: Took 0.112004 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.07.24-10.14.41:492][  0]LogSlate: Took 0.063936 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.07.24-10.14.42:050][  0]LogRenderer: Reallocating scene render targets to support 1152x488 Format 10 NumSamples 1 (Frame:1).
-[2020.07.24-10.14.43:293][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2020.07.24-10.14.43:293][  0]LogLoad: (Engine Initialization) Total time: 135.40 seconds
-[2020.07.24-10.14.43:293][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.07.24-10.14.45:034][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.07.24-10.14.45:281][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2020.07.24-10.14.45:874][  0]LogSlate: Took 0.036414 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.07.24-10.14.46:311][  1]LogAssetRegistry: Asset discovery search completed in 90.3714 seconds
-[2020.07.24-10.14.46:363][  1]LogFlexEditor: FFlexEditorModule::OnFilesLoaded() ProjectFilePath = 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/UE4_Multitanks.uproject'
-[2020.07.24-10.14.46:363][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2020.07.24-10.14.46:363][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
-[2020.07.24-10.14.57:965][416]LogSlate: Window 'Message Log' being destroyed
-[2020.07.24-10.14.58:162][416]LogSlate: Window 'Message Log' being destroyed
-[2020.07.24-10.15.01:950][503]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.07.24-10.15.02:343][503]LogMaterial: Missing cached shader map for material flexSandMaterial, compiling. 
-[2020.07.24-10.15.21:797][503]LogMaterial: Missing cached shader map for material flexSandMaterial, compiling. 
-[2020.07.24-10.15.21:817][503]LogShaderCompilers: Display: Shaders left to compile 24
-[2020.07.24-10.15.21:859][503]LogShaderCompilers: Display: Shaders left to compile 23
-[2020.07.24-10.15.21:859][503]LogShaderCompilers: Display: Shaders left to compile 22
-[2020.07.24-10.15.21:859][503]LogShaderCompilers: Display: Shaders left to compile 21
-[2020.07.24-10.15.21:908][503]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2020.07.24-10.15.21:912][503]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2020.07.24-10.15.23:503][503]LogSlate: Took 0.593811 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.07.24-10.15.31:463][506]LogSlate: Took 0.051644 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.07.24-10.15.32:654][543]LogSlate: Window 'flexSandMaterial' being destroyed
-[2020.07.24-10.15.32:659][543]LogSlate: Window 'flexSandMaterial' being destroyed
-[2020.07.24-10.15.33:906][544]LogShaderCompilers: Display: Shaders left to compile 20
-[2020.07.24-10.15.33:906][544]LogShaderCompilers: Display: Shaders left to compile 19
-[2020.07.24-10.15.33:906][544]LogShaderCompilers: Display: Shaders left to compile 18
-[2020.07.24-10.15.33:906][544]LogShaderCompilers: Display: Shaders left to compile 17
-[2020.07.24-10.15.33:906][544]LogShaderCompilers: Display: Shaders left to compile 16
-[2020.07.24-10.15.34:083][550]LogShaderCompilers: Display: Shaders left to compile 15
-[2020.07.24-10.15.34:083][550]LogShaderCompilers: Display: Shaders left to compile 14
-[2020.07.24-10.15.34:083][550]LogShaderCompilers: Display: Shaders left to compile 13
-[2020.07.24-10.15.34:208][555]LogShaderCompilers: Display: Shaders left to compile 12
-[2020.07.24-10.15.34:329][559]LogShaderCompilers: Display: Shaders left to compile 11
-[2020.07.24-10.15.34:357][560]LogShaderCompilers: Display: Shaders left to compile 10
-[2020.07.24-10.15.34:383][561]LogShaderCompilers: Display: Shaders left to compile 9
-[2020.07.24-10.15.34:464][565]LogShaderCompilers: Display: Shaders left to compile 8
-[2020.07.24-10.15.35:165][592]LogShaderCompilers: Display: Shaders left to compile 7
-[2020.07.24-10.15.35:165][592]LogShaderCompilers: Display: Shaders left to compile 6
-[2020.07.24-10.15.35:165][592]LogShaderCompilers: Display: Shaders left to compile 5
-[2020.07.24-10.15.35:165][592]LogShaderCompilers: Display: Shaders left to compile 4
-[2020.07.24-10.15.35:524][605]LogShaderCompilers: Display: Shaders left to compile 3
-[2020.07.24-10.15.35:557][606]LogShaderCompilers: Display: Shaders left to compile 2
-[2020.07.24-10.15.35:865][617]LogShaderCompilers: Display: Shaders left to compile 1
-[2020.07.24-10.15.39:691][817]LogEditorViewport: Clicking on Actor (LMB): FlexActor (Multi_Tanks_Tank3Frame)
-[2020.07.24-10.15.45:301][978]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.07.24-10.15.46:394][985]LogRenderer: Reallocating scene render targets to support 1152x896 Format 10 NumSamples 1 (Frame:1).
-[2020.07.24-10.15.58:848][429]LogSavePackage: Save=180.36ms
-[2020.07.24-10.15.58:848][429]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Multi_Tanks_Tank3FrameBA69DD4142548EC729536EBB1131DAC2.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/System/Multi_Tanks_Tank3Frame.uasset'
-[2020.07.24-10.15.58:899][429]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/System/Multi_Tanks_Tank3Frame.uasset
-[2020.07.24-10.15.59:795][464]LogSlate: Window 'Multi_Tanks_Tank3Frame' being destroyed
-[2020.07.24-10.15.59:800][464]LogSlate: Window 'Multi_Tanks_Tank3Frame' being destroyed
-[2020.07.24-10.16.15:601][158]LogSavePackage: Save=10.47ms
-[2020.07.24-10.16.15:601][158]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Multi_Tanks_Reservoir7EF6A0964450DF6D7EFA07A3F3BB5418.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/System/Multi_Tanks_Reservoir.uasset'
-[2020.07.24-10.16.15:604][158]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/System/Multi_Tanks_Reservoir.uasset
-[2020.07.24-10.16.16:771][206]LogSlate: Window 'Multi_Tanks_Reservoir' being destroyed
-[2020.07.24-10.16.16:783][206]LogSlate: Window 'Multi_Tanks_Reservoir' being destroyed
-[2020.07.24-10.16.21:521][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.07.24-10.16.23:446][514]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.07.24-10.16.24:615][574]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
-[2020.07.24-10.16.25:241][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.07.24-10.16.26:574][674]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
-[2020.07.24-10.16.27:276][705]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.07.24-10.16.40:788][348]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0002 seconds. Added 2 classes and 2 folders.
-[2020.07.24-10.16.47:727][579]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.07.24-10.16.57:067][955]LogSlate: Window 'Fluid_Tank_2 - Generic Asset Editor' being destroyed
-[2020.07.24-10.16.57:072][955]LogSlate: Window 'Fluid_Tank_2 - Generic Asset Editor' being destroyed
-[2020.07.24-10.16.57:072][955]LogCascade: Quitting Cascade. FXSystem=0x000002100F4F5580
-[2020.07.24-10.17.44:549][849]LogSlate: Window 'Fluid_Tank_3* - Generic Asset Editor' being destroyed
-[2020.07.24-10.17.44:553][849]LogSlate: Window 'Fluid_Tank_3* - Generic Asset Editor' being destroyed
-[2020.07.24-10.17.45:846][896]LogSavePackage: Save=74.85ms
-[2020.07.24-10.17.45:846][896]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Multi-tanks660928A54BD9E1E9AC5FAF8B995EA889.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Multi-tanks.umap'
-[2020.07.24-10.17.45:850][896]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Multi-tanks.umap
-[2020.07.24-10.17.46:099][896]LogSavePackage: Save=145.67ms
-[2020.07.24-10.17.46:099][896]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Multi-tanks_BuiltDataA14345044E2485BA028B938552DA1F6E.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Multi-tanks_BuiltData.uasset'
-[2020.07.24-10.17.46:102][896]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Multi-tanks_BuiltData.uasset
-[2020.07.24-10.17.54:099][249]LogSlate: Window 'Fluid_Pump* - Generic Asset Editor' being destroyed
-[2020.07.24-10.17.54:107][249]LogSlate: Window 'Fluid_Pump* - Generic Asset Editor' being destroyed
-[2020.07.24-10.18.00:052][462]LogSavePackage: Save=2.67ms
-[2020.07.24-10.18.00:052][462]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Fluid_Tank_3A00BFAD24811E1F3545E60B498DAB0B2.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Fluid/Fluid_Tank_3.uasset'
-[2020.07.24-10.18.00:058][462]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Fluid/Fluid_Tank_3.uasset
-[2020.07.24-10.18.01:349][506]LogSavePackage: Save=3.35ms
-[2020.07.24-10.18.01:349][506]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Fluid_Tank_2D32B17284C7FC9DC3175C0AC3921C525.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Fluid/Fluid_Tank_2.uasset'
-[2020.07.24-10.18.01:353][506]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Fluid/Fluid_Tank_2.uasset
-[2020.07.24-10.18.04:043][621]LogSavePackage: Save=1.94ms
-[2020.07.24-10.18.04:043][621]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Fluid_Tank_1A0C3D8694683CF14F07D69B201FB6D37.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Fluid/Fluid_Tank_1.uasset'
-[2020.07.24-10.18.04:047][621]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Fluid/Fluid_Tank_1.uasset
-[2020.07.24-10.18.05:022][663]LogSavePackage: Save=2.00ms
-[2020.07.24-10.18.05:022][663]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Fluid_Pump010C2AE44A2084D431F2DFA30CDBEF89.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Fluid/Fluid_Pump.uasset'
-[2020.07.24-10.18.05:025][663]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Fluid/Fluid_Pump.uasset
-[2020.07.24-10.18.06:141][711]LogSlate: Window 'Fluid_Tank_3 - Generic Asset Editor' being destroyed
-[2020.07.24-10.18.06:146][711]LogSlate: Window 'Fluid_Tank_3 - Generic Asset Editor' being destroyed
-[2020.07.24-10.18.37:546][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.07.24-10.18.41:223][368]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
-[2020.07.24-10.18.42:724][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
-[2020.07.24-10.18.49:340][840]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.07.24-10.18.52:249][964]LogSlate: Window 'Plane_0' being destroyed
-[2020.07.24-10.18.52:254][964]LogSlate: Window 'Plane_0' being destroyed
-[2020.07.24-10.19.06:656][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
-[2020.07.24-10.19.13:753][155]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.07.24-10.19.15:849][248]LogRenderer: Reallocating scene render targets to support 1156x896 Format 10 NumSamples 1 (Frame:8275).
-[2020.07.24-10.19.15:929][249]LogRenderer: Reallocating scene render targets to support 1196x896 Format 10 NumSamples 1 (Frame:8277).
-[2020.07.24-10.19.15:984][250]LogRenderer: Reallocating scene render targets to support 1308x896 Format 10 NumSamples 1 (Frame:8279).
-[2020.07.24-10.19.16:060][251]LogRenderer: Reallocating scene render targets to support 1328x896 Format 10 NumSamples 1 (Frame:8281).
-[2020.07.24-10.19.16:108][252]LogRenderer: Reallocating scene render targets to support 1344x896 Format 10 NumSamples 1 (Frame:8283).
-[2020.07.24-10.19.16:162][253]LogRenderer: Reallocating scene render targets to support 1368x896 Format 10 NumSamples 1 (Frame:8285).
-[2020.07.24-10.19.16:219][254]LogRenderer: Reallocating scene render targets to support 1396x896 Format 10 NumSamples 1 (Frame:8287).
-[2020.07.24-10.19.16:271][255]LogRenderer: Reallocating scene render targets to support 1436x896 Format 10 NumSamples 1 (Frame:8289).
-[2020.07.24-10.19.16:322][256]LogRenderer: Reallocating scene render targets to support 1448x896 Format 10 NumSamples 1 (Frame:8291).
-[2020.07.24-10.19.16:379][257]LogRenderer: Reallocating scene render targets to support 1472x896 Format 10 NumSamples 1 (Frame:8293).
-[2020.07.24-10.19.16:429][258]LogRenderer: Reallocating scene render targets to support 1488x896 Format 10 NumSamples 1 (Frame:8295).
-[2020.07.24-10.19.16:477][259]LogRenderer: Reallocating scene render targets to support 1516x896 Format 10 NumSamples 1 (Frame:8297).
-[2020.07.24-10.19.16:535][260]LogRenderer: Reallocating scene render targets to support 1572x896 Format 10 NumSamples 1 (Frame:8299).
-[2020.07.24-10.19.16:594][261]LogRenderer: Reallocating scene render targets to support 1620x896 Format 10 NumSamples 1 (Frame:8301).
-[2020.07.24-10.19.16:652][262]LogRenderer: Reallocating scene render targets to support 1624x896 Format 10 NumSamples 1 (Frame:8303).
-[2020.07.24-10.19.16:704][263]LogRenderer: Reallocating scene render targets to support 1632x896 Format 10 NumSamples 1 (Frame:8305).
-[2020.07.24-10.19.16:750][264]LogRenderer: Reallocating scene render targets to support 1652x896 Format 10 NumSamples 1 (Frame:8307).
-[2020.07.24-10.19.16:818][265]LogRenderer: Reallocating scene render targets to support 1656x896 Format 10 NumSamples 1 (Frame:8309).
-[2020.07.24-10.19.16:863][266]LogRenderer: Reallocating scene render targets to support 1660x896 Format 10 NumSamples 1 (Frame:8311).
-[2020.07.24-10.19.45:372][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.07.24-10.19.50:062][761]LogSavePackage: Save=51.56ms
-[2020.07.24-10.19.50:062][761]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Multi-tanks2C1D5DCA4C63C102B7BF3C804FC89ABF.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Multi-tanks.umap'
-[2020.07.24-10.19.50:066][761]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Multi-tanks.umap
-[2020.07.24-10.19.50:120][761]LogSavePackage: Save=27.46ms
-[2020.07.24-10.19.50:120][761]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Multi-tanks_BuiltDataAE991FED40157857DD1F6F88D95E0489.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Multi-tanks_BuiltData.uasset'
-[2020.07.24-10.19.50:122][761]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Multi-tanks_BuiltData.uasset
-[2020.07.24-10.20.28:065][551]LogSlate: Window 'UE4_Multitanks - Unreal Editor' being destroyed
-[2020.07.24-10.20.28:077][551]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.07.24-10.20.28:552][552]Cmd: QUIT_EDITOR
-[2020.07.24-10.20.29:285][552]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2020.07.24-10.20.29:378][552]LogExit: Preparing to exit.
-[2020.07.24-10.20.30:959][552]LogExit: Editor shut down
-[2020.07.24-10.20.30:963][552]LogExit: Transaction tracking system shut down
-[2020.07.24-10.20.31:052][552]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2020.07.24-10.20.31:052][552]LogDirectoryWatcher: A directory notification for 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/' was aborted.
-[2020.07.24-10.20.31:052][552]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
-[2020.07.24-10.20.31:052][552]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
-[2020.07.24-10.20.31:052][552]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
-[2020.07.24-10.20.31:052][552]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2020.07.24-10.20.31:052][552]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2020.07.24-10.20.31:052][552]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2020.07.24-10.20.33:766][552]LogExit: Object subsystem successfully closed.
-[2020.07.24-10.20.34:001][552]LogShaderCompilers: Display: Shaders left to compile 0
-[2020.07.24-10.20.34:005][552]LogD3D11RHI: Shutdown
-[2020.07.24-10.20.34:027][552]LogD3D11RHI: CleanupD3DDevice
-[2020.07.24-10.20.34:152][552]LogD3D11RHI: ~FD3D11DynamicRHI
-[2020.07.24-10.20.36:616][552]LogModuleManager: Shutting down and abandoning module DistCurveEditor (574)
-[2020.07.24-10.20.36:616][552]LogModuleManager: Shutting down and abandoning module Cascade (572)
-[2020.07.24-10.20.36:616][552]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (570)
-[2020.07.24-10.20.36:625][552]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (568)
-[2020.07.24-10.20.36:625][552]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (566)
-[2020.07.24-10.20.36:625][552]LogModuleManager: Shutting down and abandoning module DesktopPlatform (564)
-[2020.07.24-10.20.36:634][552]LogModuleManager: Shutting down and abandoning module SceneOutliner (562)
-[2020.07.24-10.20.36:655][552]LogModuleManager: Shutting down and abandoning module AddContentDialog (560)
-[2020.07.24-10.20.36:656][552]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine-FleX-4.19.2/UnrealEngine-FleX-4.19.2/FeaturePacks/' was aborted.
-[2020.07.24-10.20.36:671][552]LogModuleManager: Shutting down and abandoning module WidgetCarousel (559)
-[2020.07.24-10.20.36:671][552]LogModuleManager: Shutting down and abandoning module EditorWidgets (556)
-[2020.07.24-10.20.36:671][552]LogModuleManager: Shutting down and abandoning module CollectionManager (554)
-[2020.07.24-10.20.36:685][552]LogDirectoryWatcher: A directory notification for 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Collections/' was aborted.
-[2020.07.24-10.20.36:686][552]LogDirectoryWatcher: A directory notification for 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Developers/alexT/Collections/' was aborted.
-[2020.07.24-10.20.36:686][552]LogDirectoryWatcher: A directory notification for 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Collections/' was aborted.
-[2020.07.24-10.20.36:686][552]LogModuleManager: Shutting down and abandoning module StatsViewer (552)
-[2020.07.24-10.20.36:710][552]LogModuleManager: Shutting down and abandoning module FoliageEdit (550)
-[2020.07.24-10.20.36:719][552]LogModuleManager: Shutting down and abandoning module LandscapeEditor (548)
-[2020.07.24-10.20.36:795][552]LogModuleManager: Shutting down and abandoning module MeshPaintMode (546)
-[2020.07.24-10.20.36:795][552]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (544)
-[2020.07.24-10.20.36:795][552]LogModuleManager: Shutting down and abandoning module ActorPickerMode (542)
-[2020.07.24-10.20.36:795][552]LogModuleManager: Shutting down and abandoning module GeometryMode (540)
-[2020.07.24-10.20.36:795][552]LogModuleManager: Shutting down and abandoning module TextureAlignMode (538)
-[2020.07.24-10.20.36:795][552]LogModuleManager: Shutting down and abandoning module BspMode (536)
-[2020.07.24-10.20.36:806][552]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (534)
-[2020.07.24-10.20.36:812][552]LogModuleManager: Shutting down and abandoning module HardwareSurvey (532)
-[2020.07.24-10.20.36:812][552]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (530)
-[2020.07.24-10.20.36:823][552]LogModuleManager: Shutting down and abandoning module AutomationWorker (528)
-[2020.07.24-10.20.36:831][552]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (526)
-[2020.07.24-10.20.36:831][552]LogModuleManager: Shutting down and abandoning module SequenceRecorder (525)
-[2020.07.24-10.20.36:873][552]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (522)
-[2020.07.24-10.20.36:918][552]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (520)
-[2020.07.24-10.20.37:071][552]LogModuleManager: Shutting down and abandoning module PlacementMode (519)
-[2020.07.24-10.20.37:071][552]LogModuleManager: Shutting down and abandoning module MaterialEditor (518)
-[2020.07.24-10.20.37:079][552]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (514)
-[2020.07.24-10.20.37:079][552]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (512)
-[2020.07.24-10.20.37:079][552]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (510)
-[2020.07.24-10.20.37:144][552]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (508)
-[2020.07.24-10.20.37:144][552]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (506)
-[2020.07.24-10.20.37:144][552]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (504)
-[2020.07.24-10.20.37:144][552]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (502)
-[2020.07.24-10.20.37:144][552]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (500)
-[2020.07.24-10.20.37:144][552]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (498)
-[2020.07.24-10.20.37:144][552]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (496)
-[2020.07.24-10.20.37:144][552]LogModuleManager: Shutting down and abandoning module CharacterAI (494)
-[2020.07.24-10.20.37:144][552]LogModuleManager: Shutting down and abandoning module SmartSnapping (492)
-[2020.07.24-10.20.37:145][552]LogModuleManager: Shutting down and abandoning module SessionServices (490)
-[2020.07.24-10.20.37:145][552]LogModuleManager: Shutting down and abandoning module ViewportSnapping (488)
-[2020.07.24-10.20.37:145][552]LogModuleManager: Shutting down and abandoning module ViewportInteraction (486)
-[2020.07.24-10.20.37:145][552]LogModuleManager: Shutting down and abandoning module ClothPainter (484)
-[2020.07.24-10.20.37:228][552]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (483)
-[2020.07.24-10.20.37:249][552]LogModuleManager: Shutting down and abandoning module LogVisualizer (480)
-[2020.07.24-10.20.37:348][552]LogModuleManager: Shutting down and abandoning module IntroTutorials (478)
-[2020.07.24-10.20.37:399][552]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (477)
-[2020.07.24-10.20.37:422][552]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (474)
-[2020.07.24-10.20.37:451][552]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (472)
-[2020.07.24-10.20.37:451][552]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (470)
-[2020.07.24-10.20.37:463][552]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (469)
-[2020.07.24-10.20.38:097][552]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (466)
-[2020.07.24-10.20.38:097][552]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (464)
-[2020.07.24-10.20.38:097][552]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (462)
-[2020.07.24-10.20.38:097][552]LogModuleManager: Shutting down and abandoning module InputBindingEditor (460)
-[2020.07.24-10.20.38:130][552]LogModuleManager: Shutting down and abandoning module MergeActors (458)
-[2020.07.24-10.20.38:162][552]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (456)
-[2020.07.24-10.20.38:193][552]LogModuleManager: Shutting down and abandoning module LocalizationService (455)
-[2020.07.24-10.20.38:193][552]LogModuleManager: Shutting down and abandoning module HardwareTargeting (452)
-[2020.07.24-10.20.38:193][552]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (450)
-[2020.07.24-10.20.38:201][552]LogModuleManager: Shutting down and abandoning module UndoHistory (448)
-[2020.07.24-10.20.38:216][552]LogModuleManager: Shutting down and abandoning module XmlParser (446)
-[2020.07.24-10.20.38:230][552]LogModuleManager: Shutting down and abandoning module Blutility (444)
-[2020.07.24-10.20.38:230][552]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (442)
-[2020.07.24-10.20.38:231][552]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (441)
-[2020.07.24-10.20.38:231][552]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (438)
-[2020.07.24-10.20.38:231][552]LogModuleManager: Shutting down and abandoning module SettingsEditor (436)
-[2020.07.24-10.20.38:324][552]LogModuleManager: Shutting down and abandoning module ProjectLauncher (434)
-[2020.07.24-10.20.38:338][552]LogModuleManager: Shutting down and abandoning module SessionFrontend (432)
-[2020.07.24-10.20.38:357][552]LogModuleManager: Shutting down and abandoning module ProfilerClient (430)
-[2020.07.24-10.20.38:379][552]LogModuleManager: Shutting down and abandoning module DeviceManager (428)
-[2020.07.24-10.20.38:409][552]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (427)
-[2020.07.24-10.20.38:464][552]LogModuleManager: Shutting down and abandoning module AutomationController (424)
-[2020.07.24-10.20.38:553][552]LogModuleManager: Shutting down and abandoning module AutomationWindow (422)
-[2020.07.24-10.20.38:592][552]LogModuleManager: Shutting down and abandoning module Layers (420)
-[2020.07.24-10.20.38:621][552]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (418)
-[2020.07.24-10.20.38:621][552]LogModuleManager: Shutting down and abandoning module DetailCustomizations (416)
-[2020.07.24-10.20.38:638][552]LogModuleManager: Shutting down and abandoning module PackagesDialog (414)
-[2020.07.24-10.20.38:638][552]LogModuleManager: Shutting down and abandoning module Persona (412)
-[2020.07.24-10.20.38:735][552]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (411)
-[2020.07.24-10.20.38:735][552]LogModuleManager: Shutting down and abandoning module AnimGraph (409)
-[2020.07.24-10.20.38:735][552]LogModuleManager: Shutting down and abandoning module Kismet (406)
-[2020.07.24-10.20.38:752][552]LogModuleManager: Shutting down and abandoning module GraphEditor (404)
-[2020.07.24-10.20.38:752][552]LogModuleManager: Shutting down and abandoning module ClassViewer (402)
-[2020.07.24-10.20.38:772][552]LogModuleManager: Shutting down and abandoning module Toolbox (400)
-[2020.07.24-10.20.38:772][552]LogModuleManager: Shutting down and abandoning module ModuleUI (398)
-[2020.07.24-10.20.38:785][552]LogModuleManager: Shutting down and abandoning module MovieSceneTools (396)
-[2020.07.24-10.20.38:908][552]LogModuleManager: Shutting down and abandoning module OutputLog (394)
-[2020.07.24-10.20.38:908][552]LogModuleManager: Shutting down and abandoning module GammaUI (392)
-[2020.07.24-10.20.39:007][552]LogModuleManager: Shutting down and abandoning module Documentation (390)
-[2020.07.24-10.20.39:007][552]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (388)
-[2020.07.24-10.20.39:011][552]LogModuleManager: Shutting down and abandoning module MovieScene (386)
-[2020.07.24-10.20.39:011][552]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (384)
-[2020.07.24-10.20.39:011][552]LogModuleManager: Shutting down and abandoning module LauncherPlatform (382)
-[2020.07.24-10.20.39:012][552]LogModuleManager: Shutting down and abandoning module AnalyticsET (380)
-[2020.07.24-10.20.39:012][552]LogModuleManager: Shutting down and abandoning module PortalServices (378)
-[2020.07.24-10.20.39:012][552]LogModuleManager: Shutting down and abandoning module PortalRpc (376)
-[2020.07.24-10.20.39:012][552]LogModuleManager: Shutting down and abandoning module MessagingRpc (374)
-[2020.07.24-10.20.39:012][552]LogModuleManager: Shutting down and abandoning module AIModule (372)
-[2020.07.24-10.20.39:046][552]LogModuleManager: Shutting down and abandoning module GameplayDebugger (371)
-[2020.07.24-10.20.39:086][552]LogModuleManager: Shutting down and abandoning module AITestSuite (369)
-[2020.07.24-10.20.39:187][552]LogModuleManager: Shutting down and abandoning module ProfilerService (366)
-[2020.07.24-10.20.39:440][552]LogModuleManager: Shutting down and abandoning module TaskGraph (364)
-[2020.07.24-10.20.39:493][552]LogModuleManager: Shutting down and abandoning module SteamVRController (362)
-[2020.07.24-10.20.39:493][552]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (360)
-[2020.07.24-10.20.39:511][552]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (358)
-[2020.07.24-10.20.39:538][552]LogModuleManager: Shutting down and abandoning module OculusInput (356)
-[2020.07.24-10.20.39:538][552]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (354)
-[2020.07.24-10.20.39:544][552]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (352)
-[2020.07.24-10.20.39:544][552]LogModuleManager: Shutting down and abandoning module CableComponent (350)
-[2020.07.24-10.20.39:544][552]LogModuleManager: Shutting down and abandoning module AudioCapture (348)
-[2020.07.24-10.20.39:544][552]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (346)
-[2020.07.24-10.20.39:544][552]LogModuleManager: Shutting down and abandoning module AndroidPermission (344)
-[2020.07.24-10.20.39:544][552]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (340)
-[2020.07.24-10.20.39:544][552]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (338)
-[2020.07.24-10.20.39:733][552]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (336)
-[2020.07.24-10.20.39:733][552]LogModuleManager: Shutting down and abandoning module MediaCompositing (334)
-[2020.07.24-10.20.39:733][552]LogModuleManager: Shutting down and abandoning module LinearTimecode (332)
-[2020.07.24-10.20.39:733][552]LogModuleManager: Shutting down and abandoning module ImgMedia (330)
-[2020.07.24-10.20.39:755][552]LogModuleManager: Shutting down and abandoning module FlexEditor (328)
-[2020.07.24-10.20.39:755][552]LogModuleManager: Shutting down and abandoning module HTML5Networking (326)
-[2020.07.24-10.20.39:755][552]LogModuleManager: Shutting down and abandoning module AlembicImporter (324)
-[2020.07.24-10.20.39:778][552]LogModuleManager: Shutting down and abandoning module AlembicLibrary (323)
-[2020.07.24-10.20.39:778][552]LogModuleManager: Shutting down and abandoning module GeometryCache (322)
-[2020.07.24-10.20.39:778][552]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (321)
-[2020.07.24-10.20.39:778][552]LogModuleManager: Shutting down and abandoning module DatasmithContent (316)
-[2020.07.24-10.20.39:778][552]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (314)
-[2020.07.24-10.20.39:778][552]LogModuleManager: Shutting down and abandoning module PluginBrowser (312)
-[2020.07.24-10.20.39:799][552]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (310)
-[2020.07.24-10.20.39:826][552]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (308)
-[2020.07.24-10.20.39:866][552]LogModuleManager: Shutting down and abandoning module CryptoKeys (306)
-[2020.07.24-10.20.39:866][552]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (304)
-[2020.07.24-10.20.39:877][552]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (302)
-[2020.07.24-10.20.39:877][552]LogModuleManager: Shutting down and abandoning module UObjectPlugin (300)
-[2020.07.24-10.20.39:877][552]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (298)
-[2020.07.24-10.20.39:903][552]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (296)
-[2020.07.24-10.20.39:973][552]LogModuleManager: Shutting down and abandoning module GitSourceControl (294)
-[2020.07.24-10.20.39:986][552]LogModuleManager: Shutting down and abandoning module SourceControl (293)
-[2020.07.24-10.20.39:996][552]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (290)
-[2020.07.24-10.20.40:036][552]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
-[2020.07.24-10.20.40:036][552]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
-[2020.07.24-10.20.40:036][552]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
-[2020.07.24-10.20.40:076][552]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
-[2020.07.24-10.20.40:157][552]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
-[2020.07.24-10.20.40:162][552]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (278)
-[2020.07.24-10.20.40:162][552]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (276)
-[2020.07.24-10.20.40:163][552]LogModuleManager: Shutting down and abandoning module PhysXVehicles (274)
-[2020.07.24-10.20.40:163][552]LogModuleManager: Shutting down and abandoning module OculusEditor (272)
-[2020.07.24-10.20.40:163][552]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (270)
-[2020.07.24-10.20.40:163][552]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (268)
-[2020.07.24-10.20.40:163][552]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (266)
-[2020.07.24-10.20.40:205][552]LogModuleManager: Shutting down and abandoning module ActorSequence (264)
-[2020.07.24-10.20.40:205][552]LogModuleManager: Shutting down and abandoning module UdpMessaging (262)
-[2020.07.24-10.20.40:306][552]LogModuleManager: Shutting down and abandoning module TcpMessaging (260)
-[2020.07.24-10.20.40:437][552]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (258)
-[2020.07.24-10.20.40:465][552]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (256)
-[2020.07.24-10.20.40:472][552]LogModuleManager: Shutting down and abandoning module FacialAnimation (254)
-[2020.07.24-10.20.40:472][552]LogModuleManager: Shutting down and abandoning module DataValidation (252)
-[2020.07.24-10.20.40:508][552]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (250)
-[2020.07.24-10.20.40:546][552]LogModuleManager: Shutting down and abandoning module LevelEditor (249)
-[2020.07.24-10.20.40:570][552]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (248)
-[2020.07.24-10.20.40:583][552]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (246)
-[2020.07.24-10.20.40:583][552]LogModuleManager: Shutting down and abandoning module MainFrame (244)
-[2020.07.24-10.20.40:583][552]LogModuleManager: Shutting down and abandoning module HotReload (243)
-[2020.07.24-10.20.40:607][552]LogModuleManager: Shutting down and abandoning module ContentBrowser (239)
-[2020.07.24-10.20.40:608][552]LogModuleManager: Shutting down and abandoning module TreeMap (237)
-[2020.07.24-10.20.40:645][552]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (234)
-[2020.07.24-10.20.40:645][552]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (232)
-[2020.07.24-10.20.40:696][552]LogModuleManager: Shutting down and abandoning module LiveLink (230)
-[2020.07.24-10.20.41:347][552]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2020.07.24-10.20.41:358][552]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2020.07.24-10.20.41:358][552]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2020.07.24-10.20.41:381][552]LogModuleManager: Shutting down and abandoning module Media (223)
-[2020.07.24-10.20.41:387][552]LogModuleManager: Shutting down and abandoning module PacketHandler (220)
-[2020.07.24-10.20.41:387][552]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (218)
-[2020.07.24-10.20.41:387][552]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (216)
-[2020.07.24-10.20.41:407][552]LogModuleManager: Shutting down and abandoning module MediaAssets (214)
-[2020.07.24-10.20.41:407][552]LogModuleManager: Shutting down and abandoning module Overlay (212)
-[2020.07.24-10.20.41:407][552]LogModuleManager: Shutting down and abandoning module OverlayEditor (211)
-[2020.07.24-10.20.41:407][552]LogModuleManager: Shutting down and abandoning module VREditor (208)
-[2020.07.24-10.20.41:430][552]LogModuleManager: Shutting down and abandoning module StringTableEditor (206)
-[2020.07.24-10.20.41:454][552]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (204)
-[2020.07.24-10.20.41:497][552]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (202)
-[2020.07.24-10.20.41:553][552]LogModuleManager: Shutting down and abandoning module FunctionalTesting (200)
-[2020.07.24-10.20.41:574][552]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (198)
-[2020.07.24-10.20.41:603][552]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (197)
-[2020.07.24-10.20.41:603][552]LogModuleManager: Shutting down and abandoning module UMG (194)
-[2020.07.24-10.20.41:634][552]LogModuleManager: Shutting down and abandoning module UMGEditor (193)
-[2020.07.24-10.20.41:687][552]LogModuleManager: Shutting down and abandoning module Sequencer (192)
-[2020.07.24-10.20.41:732][552]LogModuleManager: Shutting down and abandoning module MessageLog (189)
-[2020.07.24-10.20.41:732][552]LogModuleManager: Shutting down and abandoning module SlateReflector (184)
-[2020.07.24-10.20.41:783][552]LogModuleManager: Shutting down and abandoning module Slate (182)
-[2020.07.24-10.20.41:783][552]LogModuleManager: Shutting down and abandoning module EditorStyle (180)
-[2020.07.24-10.20.41:785][552]LogModuleManager: Shutting down and abandoning module MRMesh (178)
-[2020.07.24-10.20.41:785][552]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (176)
-[2020.07.24-10.20.41:785][552]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (174)
-[2020.07.24-10.20.41:828][552]LogModuleManager: Shutting down and abandoning module XAudio2 (172)
-[2020.07.24-10.20.41:828][552]LogModuleManager: Shutting down and abandoning module Networking (170)
-[2020.07.24-10.20.41:828][552]LogModuleManager: Shutting down and abandoning module Core (168)
-[2020.07.24-10.20.41:828][552]LogModuleManager: Shutting down and abandoning module LevelSequence (166)
-[2020.07.24-10.20.41:840][552]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2020.07.24-10.20.41:840][552]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2020.07.24-10.20.41:859][552]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2020.07.24-10.20.41:876][552]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2020.07.24-10.20.41:876][552]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (159)
-[2020.07.24-10.20.41:888][552]LogModuleManager: Shutting down and abandoning module MaterialBaking (155)
-[2020.07.24-10.20.41:911][552]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
-[2020.07.24-10.20.41:911][552]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2020.07.24-10.20.41:946][552]LogDerivedDataCache: Shutdown
-[2020.07.24-10.20.41:946][552]LogModuleManager: Shutting down and abandoning module XGEController (146)
-[2020.07.24-10.20.41:946][552]LogXGEController: Cleaning working directory: C:/Users/alexT/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.07.24-10.20.41:946][552]LogModuleManager: Shutting down and abandoning module TargetPlatform (144)
-[2020.07.24-10.20.41:946][552]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (143)
-[2020.07.24-10.20.41:946][552]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (141)
-[2020.07.24-10.20.41:946][552]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (139)
-[2020.07.24-10.20.41:960][552]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (137)
-[2020.07.24-10.20.41:960][552]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (135)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (133)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (131)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (129)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (127)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (125)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module ImageWrapper (124)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (121)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (119)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (117)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (115)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (113)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module Messaging (111)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (109)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (107)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (105)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (103)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (101)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (99)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (97)
-[2020.07.24-10.20.41:961][552]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (95)
-[2020.07.24-10.20.41:962][552]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (93)
-[2020.07.24-10.20.41:962][552]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (91)
-[2020.07.24-10.20.41:962][552]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (89)
-[2020.07.24-10.20.41:962][552]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (87)
-[2020.07.24-10.20.41:962][552]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (85)
-[2020.07.24-10.20.41:962][552]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (83)
-[2020.07.24-10.20.41:962][552]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (81)
-[2020.07.24-10.20.41:962][552]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (79)
-[2020.07.24-10.20.41:962][552]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (77)
-[2020.07.24-10.20.41:962][552]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (75)
-[2020.07.24-10.20.41:962][552]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (73)
-[2020.07.24-10.20.41:962][552]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (71)
-[2020.07.24-10.20.41:962][552]LogModuleManager: Shutting down and abandoning module InputCore (68)
-[2020.07.24-10.20.41:962][552]LogModuleManager: Shutting down and abandoning module Settings (66)
-[2020.07.24-10.20.41:962][552]LogModuleManager: Shutting down and abandoning module PhysXCooking (64)
-[2020.07.24-10.20.41:962][552]LogModuleManager: Shutting down and abandoning module SteamVR (62)
-[2020.07.24-10.20.41:962][552]LogModuleManager: Shutting down and abandoning module OculusHMD (60)
-[2020.07.24-10.20.41:971][552]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (58)
-[2020.07.24-10.20.41:971][552]LogModuleManager: Shutting down and abandoning module AppleARKit (56)
-[2020.07.24-10.20.41:989][552]LogModuleManager: Shutting down and abandoning module AugmentedReality (53)
-[2020.07.24-10.20.41:989][552]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
-[2020.07.24-10.20.41:989][552]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
-[2020.07.24-10.20.42:019][552]LogModuleManager: Shutting down and abandoning module XMPP (45)
-[2020.07.24-10.20.42:038][552]LogModuleManager: Shutting down and abandoning module HTTP (43)
-[2020.07.24-10.20.42:062][552]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2020.07.24-10.20.42:062][552]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B05981664-4006-7D35-393A-BB87687D2B12%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=d59d918b47665de661147898f0e94d33%7C3deb6ea6431a494dbc69312300a174f8%7Cef17a412-fb75-4fb6-904e-6ca5ac2d7ba5&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
-[2020.07.24-10.20.42:084][552]LogModuleManager: Shutting down and abandoning module SSL (42)
-[2020.07.24-10.20.42:101][552]LogModuleManager: Shutting down and abandoning module Flex (38)
-[2020.07.24-10.20.42:119][552]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2020.07.24-10.20.42:131][552]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2020.07.24-10.20.42:131][552]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2020.07.24-10.20.42:157][552]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2020.07.24-10.20.42:175][552]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2020.07.24-10.20.42:175][552]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2020.07.24-10.20.42:175][552]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2020.07.24-10.20.42:208][552]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2020.07.24-10.20.42:229][552]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2020.07.24-10.20.42:229][552]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2020.07.24-10.20.42:248][552]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2020.07.24-10.20.42:248][552]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2020.07.24-10.20.42:248][552]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2020.07.24-10.20.42:248][552]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2020.07.24-10.20.42:253][552]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2020.07.24-10.20.42:253][552]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2020.07.24-10.20.42:253][552]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2020.07.24-10.20.42:253][552]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2020.07.24-10.20.42:300][552]LogExit: Exiting.
-[2020.07.24-10.20.42:322][552]Log file closed, 07/24/20 12:20:42
+[2020.07.24-10.29.35:153][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.24-10.29.35:153][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.07.24-10.29.35:161][  0]LogInit: Computer: PC-GAMING-ALEXI
+[2020.07.24-10.29.35:161][  0]LogInit: User: alexT
+[2020.07.24-10.29.35:161][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.07.24-10.29.35:161][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.24-10.29.35:161][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.07.24-10.29.35:161][  0]LogMemory: Platform Memory Stats for Windows
+[2020.07.24-10.29.35:161][  0]LogMemory: Process Physical Memory: 273.63 MB used, 273.64 MB peak
+[2020.07.24-10.29.35:161][  0]LogMemory: Process Virtual Memory: 264.50 MB used, 264.50 MB peak
+[2020.07.24-10.29.35:161][  0]LogMemory: Physical Memory: 4963.97 MB used,  3080.00 MB free, 8043.97 MB total
+[2020.07.24-10.29.35:161][  0]LogMemory: Virtual Memory: 4775.46 MB used,  3080.00 MB free, 134217728.00 MB total
+[2020.07.24-10.29.35:183][  0]LogInit: Using OS detected language (fr-FR).
+[2020.07.24-10.29.35:183][  0]LogInit: Using OS detected locale (fr-FR).
+[2020.07.24-10.29.35:188][  0]LogTextLocalizationManager: No localization for 'fr-FR' exists, so 'en' will be used for the language.
+[2020.07.24-10.29.35:543][  0]LogStreaming: Display: Took  0.359s to EndInitTextLocalization.
+[2020.07.24-10.29.35:543][  0]LogInit: Setting process to per monitor DPI aware
+[2020.07.24-10.29.35:579][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.07.24-10.29.35:579][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.07.24-10.29.35:887][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.24-10.29.35:956][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2020.07.24-10.29.35:956][  0]LogD3D11RHI:       4019/0/4021 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.07.24-10.29.35:972][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.07.24-10.29.35:972][  0]LogD3D11RHI:       128/0/4021 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.07.24-10.29.35:974][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.24-10.29.35:974][  0]LogD3D11RHI:       0/0/4021 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.24-10.29.35:974][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.24-10.29.36:001][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.24-10.29.36:001][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2020.07.24-10.29.36:001][  0]LogWindows: EnumDisplayDevices:
+[2020.07.24-10.29.36:001][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.07.24-10.29.36:001][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.07.24-10.29.36:002][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.07.24-10.29.36:002][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2020.07.24-10.29.36:002][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.07.24-10.29.36:002][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2020.07.24-10.29.36:002][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.07.24-10.29.36:002][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.07.24-10.29.36:002][  0]LogRHI: Texture pool is 2813 MB (70% of 4019 MB)
+[2020.07.24-10.29.36:045][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2020.07.24-10.29.36:045][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2020.07.24-10.29.36:045][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.24-10.29.36:060][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.07.24-10.29.36:126][  0]LogFlex: Display: Initialized Flex with GPU: NVIDIA GeForce GTX 1050
+[2020.07.24-10.29.36:126][  0]LogShaderCompilers: Guid format shader working directory is -47 characters bigger than the processId version (C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Intermediate/Shaders/WorkingDirectory/19732/).
+[2020.07.24-10.29.36:126][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/alexT/AppData/Local/Temp/UnrealShaderWorkingDir/60A57DD743920685490979B25AE0DD30/'.
+[2020.07.24-10.29.36:475][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.07.24-10.29.36:484][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.07.24-10.29.36:494][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.07.24-10.29.36:503][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.07.24-10.29.36:513][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.07.24-10.29.36:522][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.07.24-10.29.36:531][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.07.24-10.29.36:542][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.07.24-10.29.36:546][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.07.24-10.29.36:555][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2020.07.24-10.29.36:563][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2020.07.24-10.29.36:572][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2020.07.24-10.29.36:581][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2020.07.24-10.29.36:589][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2020.07.24-10.29.36:598][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2020.07.24-10.29.36:615][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2020.07.24-10.29.36:615][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.07.24-10.29.36:624][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.07.24-10.29.36:625][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.07.24-10.29.36:658][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.07.24-10.29.36:666][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.07.24-10.29.36:666][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.07.24-10.29.36:777][  0]LogXGEController: Cleaning working directory: C:/Users/alexT/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.07.24-10.29.36:777][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.07.24-10.29.36:777][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.07.24-10.29.36:777][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.24-10.29.37:377][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.24-10.29.37:441][  0]LogDerivedDataCache: Loaded boot cache 0.06s 77MB C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/DerivedDataCache/Boot.ddc.
+[2020.07.24-10.29.37:441][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/DerivedDataCache/Boot.ddc
+[2020.07.24-10.29.37:442][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.24-10.29.37:442][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.24-10.29.37:442][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.24-10.29.37:442][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2020.07.24-10.29.37:454][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2020.07.24-10.29.37:454][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.07.24-10.29.37:454][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.07.24-10.29.37:465][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.07.24-10.29.37:465][  0]LogSlate: Using Freetype 2.6.0
+[2020.07.24-10.29.37:466][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.24-10.29.37:466][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.24-10.29.37:602][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2020.07.24-10.29.37:849][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.24-10.29.38:061][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.24-10.29.38:061][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.07.24-10.29.38:061][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.07.24-10.29.38:061][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.07.24-10.29.38:061][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.07.24-10.29.38:061][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.07.24-10.29.38:095][  0]LogNetVersion: UE4_Multitanks , NetCL: 0, EngineNetVer: 2, GameNetVer: 0 (Checksum: 792874131)
+[2020.07.24-10.29.38:483][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.036817 seconds
+[2020.07.24-10.29.38:488][  0]LogUObjectArray: 36945 objects as part of root set at end of initial load.
+[2020.07.24-10.29.38:488][  0]LogUObjectAllocator: 7383288 out of 0 bytes used by permanent object pool.
+[2020.07.24-10.29.38:488][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.24-10.29.39:008][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2020.07.24-10.29.39:008][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2020.07.24-10.29.39:008][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2020.07.24-10.29.39:008][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2020.07.24-10.29.39:008][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2020.07.24-10.29.39:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2020.07.24-10.29.39:009][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2020.07.24-10.29.39:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2020.07.24-10.29.39:009][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2020.07.24-10.29.39:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2020.07.24-10.29.39:009][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2020.07.24-10.29.39:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2020.07.24-10.29.39:009][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2020.07.24-10.29.39:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2020.07.24-10.29.39:009][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2020.07.24-10.29.39:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2020.07.24-10.29.39:009][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2020.07.24-10.29.39:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2020.07.24-10.29.39:009][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2020.07.24-10.29.39:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2020.07.24-10.29.39:009][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2020.07.24-10.29.39:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2020.07.24-10.29.39:009][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2020.07.24-10.29.39:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2020.07.24-10.29.39:009][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2020.07.24-10.29.39:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2020.07.24-10.29.39:009][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2020.07.24-10.29.39:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2020.07.24-10.29.39:009][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2020.07.24-10.29.39:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2020.07.24-10.29.39:009][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2020.07.24-10.29.39:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2020.07.24-10.29.39:009][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2020.07.24-10.29.39:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2020.07.24-10.29.39:009][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2020.07.24-10.29.39:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2020.07.24-10.29.39:009][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2020.07.24-10.29.39:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2020.07.24-10.29.39:009][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2020.07.24-10.29.39:009][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2020.07.24-10.29.39:009][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2020.07.24-10.29.39:010][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2020.07.24-10.29.39:010][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png' error.
+[2020.07.24-10.29.39:010][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_24x.png
+[2020.07.24-10.29.39:010][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2020.07.24-10.29.39:010][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2020.07.24-10.29.39:010][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png' error.
+[2020.07.24-10.29.39:010][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Linux/Platform_Linux_128x.png
+[2020.07.24-10.29.39:010][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2020.07.24-10.29.39:010][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2020.07.24-10.29.39:010][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2020.07.24-10.29.39:010][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2020.07.24-10.29.39:010][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2020.07.24-10.29.39:010][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2020.07.24-10.29.39:010][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2020.07.24-10.29.39:010][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2020.07.24-10.29.39:011][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2020.07.24-10.29.39:011][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2020.07.24-10.29.39:011][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2020.07.24-10.29.39:011][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2020.07.24-10.29.39:011][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2020.07.24-10.29.39:011][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2020.07.24-10.29.39:011][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2020.07.24-10.29.39:011][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2020.07.24-10.29.39:011][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2020.07.24-10.29.39:011][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2020.07.24-10.29.39:011][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2020.07.24-10.29.39:011][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2020.07.24-10.29.39:011][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2020.07.24-10.29.39:011][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2020.07.24-10.29.39:011][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2020.07.24-10.29.39:011][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2020.07.24-10.29.39:011][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2020.07.24-10.29.39:011][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2020.07.24-10.29.39:011][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2020.07.24-10.29.39:011][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2020.07.24-10.29.39:011][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2020.07.24-10.29.39:011][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2020.07.24-10.29.39:011][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2020.07.24-10.29.39:011][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2020.07.24-10.29.39:011][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2020.07.24-10.29.39:011][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2020.07.24-10.29.39:011][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2020.07.24-10.29.39:011][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2020.07.24-10.29.39:011][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2020.07.24-10.29.39:011][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2020.07.24-10.29.39:011][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2020.07.24-10.29.39:011][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2020.07.24-10.29.39:011][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2020.07.24-10.29.39:011][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2020.07.24-10.29.39:011][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2020.07.24-10.29.39:011][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2020.07.24-10.29.39:012][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2020.07.24-10.29.39:012][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2020.07.24-10.29.39:012][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2020.07.24-10.29.39:012][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2020.07.24-10.29.39:012][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2020.07.24-10.29.39:012][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2020.07.24-10.29.39:012][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2020.07.24-10.29.39:012][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2020.07.24-10.29.39:012][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2020.07.24-10.29.39:012][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2020.07.24-10.29.40:101][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.24-10.29.40:134][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.24-10.29.40:541][  0]SourceControl: Source control is disabled
+[2020.07.24-10.29.40:541][  0]SourceControl: Source control is disabled
+[2020.07.24-10.29.40:563][  0]SourceControl: Source control is disabled
+[2020.07.24-10.29.40:585][  0]SourceControl: Source control is disabled
+[2020.07.24-10.29.41:178][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.24-10.29.41:381][  0]LogOcInput: OculusInput pre-init called
+[2020.07.24-10.29.41:492][  0]LogEngine: Initializing Engine...
+[2020.07.24-10.29.41:493][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.24-10.29.41:494][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.07.24-10.29.41:494][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.07.24-10.29.41:723][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.07.24-10.29.41:756][  0]LogInit: XAudio2 using 'Casque pour téléphone (CORSAIR VIRTUOSO SE USB Gaming Headset)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2020.07.24-10.29.41:936][  0]LogInit: FAudioDevice initialized.
+[2020.07.24-10.29.42:110][  0]LogDerivedDataCache: Saved boot cache 0.17s 77MB C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/DerivedDataCache/Boot.ddc.
+[2020.07.24-10.29.42:122][  0]LogInit: Texture streaming: Enabled
+[2020.07.24-10.29.42:137][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.07.24-10.29.42:148][  0]LogInit: Transaction tracking system initialized
+[2020.07.24-10.29.42:164][  0]BlueprintLog: New page: Editor Load
+[2020.07.24-10.29.42:221][  0]LocalizationService: Localization service is disabled
+[2020.07.24-10.29.42:323][  0]LogConsoleResponse: Display: 
+[2020.07.24-10.29.42:466][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.24-10.29.42:466][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.24-10.29.42:466][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.07.24-10.29.42:466][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.07.24-10.29.42:466][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.07.24-10.29.42:565][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/' took 0.01s
+[2020.07.24-10.29.42:879][  0]SourceControl: Source control is disabled
+[2020.07.24-10.29.42:879][  0]Cmd: MAP LOAD FILE="C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Multi-tanks.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.24-10.29.42:879][  0]LightingResults: New page: Lighting Build
+[2020.07.24-10.29.42:881][  0]MapCheck: New page: Map Check
+[2020.07.24-10.29.42:881][  0]LightingResults: New page: Lighting Build
+[2020.07.24-10.29.43:493][  0]LogAIModule: Creating AISystem for world Multi-tanks
+[2020.07.24-10.29.43:499][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.24-10.29.43:509][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.24-10.29.43:569][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59,356ms to complete.
+[2020.07.24-10.29.43:569][  0]LogFileHelpers: Loading map 'Multi-tanks' took 0.690
+[2020.07.24-10.29.43:793][  0]LogCollectionManager: Loaded 0 collections in 0.000988 seconds
+[2020.07.24-10.29.43:834][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Collections/' took 0.01s
+[2020.07.24-10.29.43:834][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Developers/alexT/Collections/' took 0.01s
+[2020.07.24-10.29.43:834][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Collections/' took 0.01s
+[2020.07.24-10.29.43:834][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.07.24-10.29.43:841][  0]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2478 classes and 562 folders.
+[2020.07.24-10.29.43:846][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.07.24-10.29.43:902][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.07.24-10.29.43:916][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.07.24-10.29.43:928][  0]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.24-10.29.43:933][  0]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.24-10.29.43:936][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.24-10.29.43:987][  0]LogRenderer: Reallocating scene render targets to support 1152x332 Format 10 NumSamples 1 (Frame:1).
+[2020.07.24-10.29.44:200][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.07.24-10.29.44:200][  0]LogLoad: (Engine Initialization) Total time: 11.49 seconds
+[2020.07.24-10.29.44:200][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.24-10.29.44:237][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.24-10.29.44:275][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.24-10.29.44:302][  1]LogAssetRegistry: Asset discovery search completed in 6.7224 seconds
+[2020.07.24-10.29.44:303][  1]LogFlexEditor: FFlexEditorModule::OnFilesLoaded() ProjectFilePath = 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/UE4_Multitanks.uproject'
+[2020.07.24-10.29.44:303][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.07.24-10.29.44:303][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000118 seconds (updated 0 objects)
+[2020.07.24-10.29.48:174][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-10.29.48:255][225]LogRenderer: Reallocating scene render targets to support 1152x336 Format 10 NumSamples 1 (Frame:223).
+[2020.07.24-10.29.48:299][226]LogRenderer: Reallocating scene render targets to support 1152x344 Format 10 NumSamples 1 (Frame:225).
+[2020.07.24-10.29.48:344][227]LogRenderer: Reallocating scene render targets to support 1152x364 Format 10 NumSamples 1 (Frame:227).
+[2020.07.24-10.29.48:386][228]LogRenderer: Reallocating scene render targets to support 1152x380 Format 10 NumSamples 1 (Frame:229).
+[2020.07.24-10.29.48:430][229]LogRenderer: Reallocating scene render targets to support 1152x396 Format 10 NumSamples 1 (Frame:231).
+[2020.07.24-10.29.48:475][230]LogRenderer: Reallocating scene render targets to support 1152x416 Format 10 NumSamples 1 (Frame:233).
+[2020.07.24-10.29.48:518][231]LogRenderer: Reallocating scene render targets to support 1152x440 Format 10 NumSamples 1 (Frame:235).
+[2020.07.24-10.29.48:562][232]LogRenderer: Reallocating scene render targets to support 1152x472 Format 10 NumSamples 1 (Frame:237).
+[2020.07.24-10.29.48:606][233]LogRenderer: Reallocating scene render targets to support 1152x520 Format 10 NumSamples 1 (Frame:239).
+[2020.07.24-10.29.48:651][234]LogRenderer: Reallocating scene render targets to support 1152x580 Format 10 NumSamples 1 (Frame:241).
+[2020.07.24-10.29.48:697][235]LogRenderer: Reallocating scene render targets to support 1152x620 Format 10 NumSamples 1 (Frame:243).
+[2020.07.24-10.29.48:739][236]LogRenderer: Reallocating scene render targets to support 1152x680 Format 10 NumSamples 1 (Frame:245).
+[2020.07.24-10.29.48:783][237]LogRenderer: Reallocating scene render targets to support 1152x716 Format 10 NumSamples 1 (Frame:247).
+[2020.07.24-10.29.48:825][238]LogRenderer: Reallocating scene render targets to support 1152x748 Format 10 NumSamples 1 (Frame:249).
+[2020.07.24-10.29.48:870][239]LogRenderer: Reallocating scene render targets to support 1152x764 Format 10 NumSamples 1 (Frame:251).
+[2020.07.24-10.29.48:913][240]LogRenderer: Reallocating scene render targets to support 1152x780 Format 10 NumSamples 1 (Frame:253).
+[2020.07.24-10.29.48:956][241]LogRenderer: Reallocating scene render targets to support 1152x784 Format 10 NumSamples 1 (Frame:255).
+[2020.07.24-10.29.49:000][242]LogRenderer: Reallocating scene render targets to support 1152x788 Format 10 NumSamples 1 (Frame:257).
+[2020.07.24-10.29.57:298][730]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-10.30.06:293][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-10.46.08:088][414]LogRenderer: Reallocating scene render targets to support 1152x800 Format 10 NumSamples 1 (Frame:1493).
+[2020.07.24-10.46.08:130][415]LogRenderer: Reallocating scene render targets to support 1152x820 Format 10 NumSamples 1 (Frame:1495).
+[2020.07.24-10.46.08:171][416]LogRenderer: Reallocating scene render targets to support 1152x840 Format 10 NumSamples 1 (Frame:1497).
+[2020.07.24-10.46.08:213][417]LogRenderer: Reallocating scene render targets to support 1152x860 Format 10 NumSamples 1 (Frame:1499).
+[2020.07.24-10.46.08:252][418]LogRenderer: Reallocating scene render targets to support 1152x872 Format 10 NumSamples 1 (Frame:1501).
+[2020.07.24-10.46.08:331][420]LogRenderer: Reallocating scene render targets to support 1152x876 Format 10 NumSamples 1 (Frame:1505).
+[2020.07.24-10.46.08:404][422]LogRenderer: Reallocating scene render targets to support 1152x880 Format 10 NumSamples 1 (Frame:1509).
+[2020.07.24-10.46.08:444][423]LogRenderer: Reallocating scene render targets to support 1152x888 Format 10 NumSamples 1 (Frame:1511).
+[2020.07.24-10.46.08:487][424]LogRenderer: Reallocating scene render targets to support 1152x900 Format 10 NumSamples 1 (Frame:1513).
+[2020.07.24-10.46.17:484][951]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2020.07.24-10.46.17:566][951]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.07.24-10.46.18:044][976]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (MultiTanks_Square_pipes)
+[2020.07.24-10.46.18:092][976]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.07.24-10.46.18:809][ 16]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.07.24-10.46.29:596][654]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2020.07.24-10.46.29:627][654]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.07.24-10.46.30:608][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.07.24-10.46.40:736][315]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.07.24-10.47.05:716][162]LogSlate: Took 0.040143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.07.24-10.47.10:449][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-10.47.36:525][526]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.24-10.47.36:610][526]LogSavePackage: Save=36.81ms
+[2020.07.24-10.47.36:610][526]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Multi-tanks_Auto18409645C4C7578928DBB52821425AC9E.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Autosaves/Game/Level/Multi-tanks_Auto1.umap'
+[2020.07.24-10.47.36:612][526]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Autosaves/Game/Level/Multi-tanks_Auto1.umap
+[2020.07.24-10.47.36:614][526]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Multi-tanks' took 0.058
+[2020.07.24-10.47.36:614][526]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.058
+[2020.07.24-10.49.34:230][885]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MultiTanks_Square_pipes)
+[2020.07.24-10.49.36:803][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-10.50.08:008][512]LogRenderer: Reallocating scene render targets to support 1152x936 Format 10 NumSamples 1 (Frame:575).
+[2020.07.24-10.50.08:080][512]LogRenderer: Reallocating scene render targets to support 1152x952 Format 10 NumSamples 1 (Frame:576).
+[2020.07.24-10.50.08:160][512]LogRenderer: Reallocating scene render targets to support 1152x960 Format 10 NumSamples 1 (Frame:577).
+[2020.07.24-10.50.08:228][512]LogRenderer: Reallocating scene render targets to support 1152x964 Format 10 NumSamples 1 (Frame:578).
+[2020.07.24-10.50.46:975][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-10.50.48:089][278]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-10.52.11:826][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-10.52.37:062][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-10.57.37:205][991]LogSavePackage: Save=35.36ms
+[2020.07.24-10.57.37:205][991]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Multi-tanks_Auto25C8A52C84A5D1D1053E64486AF9D77C9.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Autosaves/Game/Level/Multi-tanks_Auto2.umap'
+[2020.07.24-10.57.37:207][991]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Autosaves/Game/Level/Multi-tanks_Auto2.umap
+[2020.07.24-10.57.37:208][991]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Multi-tanks' took 0.056
+[2020.07.24-10.57.37:208][991]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.056
+[2020.07.24-11.00.42:479][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-11.00.45:315][808]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2020.07.24-11.01.37:097][470]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-11.05.39:211][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-11.10.01:025][843]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-11.10.15:053][337]LogCascade: Quitting Cascade. FXSystem=0x0000020D0DD9CFE0
+[2020.07.24-11.10.15:714][367]LogSlate: Window 'Fluid_Tank_2 - Generic Asset Editor' being destroyed
+[2020.07.24-11.10.16:509][410]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-11.10.18:605][497]LogSlate: Window 'Tank_1' being destroyed
+[2020.07.24-11.10.18:611][497]LogSlate: Window 'Tank_1' being destroyed
+[2020.07.24-11.10.18:611][497]LogCascade: Quitting Cascade. FXSystem=0x0000020D6DD3AE80
+[2020.07.24-11.10.19:501][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-11.10.47:794][293]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-11.10.47:863][297]LogSlate: Window 'Pump*' being destroyed
+[2020.07.24-11.10.47:867][297]LogSlate: Window 'Pump*' being destroyed
+[2020.07.24-11.10.47:867][297]LogCascade: Quitting Cascade. FXSystem=0x0000020D59814E00
+[2020.07.24-11.10.49:542][390]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-11.10.51:674][505]LogSlate: Window 'Container_Pump - Generic Asset Editor' being destroyed
+[2020.07.24-11.10.51:679][505]LogSlate: Window 'Container_Pump - Generic Asset Editor' being destroyed
+[2020.07.24-11.10.53:577][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-11.11.22:876][841]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-11.11.39:950][332]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-11.11.41:757][414]LogEditorTransaction: Undo Toggle Enable on Emitter
+[2020.07.24-11.11.42:024][424]LogEditorTransaction: Undo Toggle Enable on Emitter
+[2020.07.24-11.11.42:242][432]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.24-11.11.43:772][508]LogEditorTransaction: Undo Move Actors
+[2020.07.24-11.11.44:349][536]LogEditorTransaction: Undo Move Actors
+[2020.07.24-11.11.44:604][548]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.24-11.11.44:839][555]LogEditorTransaction: Undo Clicking on Actors
+[2020.07.24-11.11.48:749][669]LogSlate: Window 'Pump' being destroyed
+[2020.07.24-11.11.48:753][669]LogSlate: Window 'Pump' being destroyed
+[2020.07.24-11.11.48:776][669]LogCascade: Quitting Cascade. FXSystem=0x0000020D5F8BDC60
+[2020.07.24-11.11.50:762][782]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-11.12.15:918][861]LogSavePackage: Save=35.60ms
+[2020.07.24-11.12.15:918][861]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Multi-tanks_Auto329E1B1AF4506F550FE975BA1D58292DF.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Autosaves/Game/Level/Multi-tanks_Auto3.umap'
+[2020.07.24-11.12.15:920][861]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Autosaves/Game/Level/Multi-tanks_Auto3.umap
+[2020.07.24-11.12.15:922][861]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Multi-tanks' took 0.059
+[2020.07.24-11.12.15:922][861]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.059
+[2020.07.24-11.22.16:575][663]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Multi-tanks' took 0.011
+[2020.07.24-11.32.17:214][465]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Multi-tanks' took 0.010
+[2020.07.24-11.42.17:930][267]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Multi-tanks' took 0.010
+[2020.07.24-11.52.18:542][ 69]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Multi-tanks' took 0.008
+[2020.07.24-12.02.23:211][883]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Multi-tanks' took 0.009
+[2020.07.24-12.12.23:881][685]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Multi-tanks' took 0.010
+[2020.07.24-12.22.24:596][487]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Multi-tanks' took 0.011
+[2020.07.24-12.32.25:221][289]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Multi-tanks' took 0.009
+[2020.07.24-12.42.25:891][ 91]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Multi-tanks' took 0.009
+[2020.07.24-12.42.38:537][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-12.52.26:646][920]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Multi-tanks' took 0.010
+[2020.07.24-12.58.36:170][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-12.59.17:818][534]Cmd: TRANSACTION UNDO
+[2020.07.24-12.59.17:819][534]LogEditorTransaction: Undo Animatable Property Changed
+[2020.07.24-12.59.40:526][771]LogSavePackage: Save=418.03ms
+[2020.07.24-12.59.40:529][771]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Camera_02E8CF5FCE432C5F559574178669208898.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Animation/Camera_02.uasset'
+[2020.07.24-12.59.40:619][771]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Animation/Camera_02.uasset
+[2020.07.24-12.59.50:584][336]LogSavePackage: Save=15.88ms
+[2020.07.24-12.59.50:584][336]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Camera_03705E0DBC4B7EA69CA79A0DA1E18B6F7A.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Animation/Camera_03.uasset'
+[2020.07.24-12.59.50:587][336]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Animation/Camera_03.uasset
+[2020.07.24-12.59.58:263][760]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0735 seconds. Added 11 classes and 0 folders.
+[2020.07.24-12.59.58:342][760]LogLinker: Can't find file '/Engine/Transient'
+[2020.07.24-12.59.59:596][760]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020d09942b00, Size=168, Default__DefaultBurnIn_C Function /Engine/Sequencer/DefaultBurnIn.DefaultBurnIn_C:ExecuteUbergraph_DefaultBurnIn
+[2020.07.24-13.00.00:175][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000020d09942b00, Size=168
+[2020.07.24-13.00.00:175][760]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020d012fb700, Size=168, Default__DefaultBurnIn_C Function /Engine/Transient.REINST_DefaultBurnIn_C_0:ExecuteUbergraph_DefaultBurnIn
+[2020.07.24-13.00.00:333][760]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020d04501fc0, Size=168, Default__DefaultBurnIn_C Function /Engine/Sequencer/DefaultBurnIn.DefaultBurnIn_C:ExecuteUbergraph_DefaultBurnIn
+[2020.07.24-13.00.04:455][869]LogSlate: Window 'Render Movie Settings' being destroyed
+[2020.07.24-13.00.05:667][931]LogSavePackage: Save=17.09ms
+[2020.07.24-13.00.05:668][931]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Saved/Camera_01347A470D454CAAF57289CD8DC3C9CE70.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Animation/Camera_01.uasset'
+[2020.07.24-13.00.05:670][931]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks/Content/Level/Animation/Camera_01.uasset
