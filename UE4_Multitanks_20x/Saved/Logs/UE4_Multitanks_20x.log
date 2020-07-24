@@ -446,3 +446,528 @@ LogInit: Object subsystem initialized
 [2020.07.24-10.21.03:944][  0]LogEngineSessionManager: EngineSessionManager initialized
 [2020.07.24-10.21.04:018][  0]LogInit: Transaction tracking system initialized
 [2020.07.24-10.21.04:254][  0]BlueprintLog: New page: Editor Load
+[2020.07.24-10.21.04:875][  0]LocalizationService: Localization service is disabled
+[2020.07.24-10.21.05:671][  0]LogConsoleResponse: Display: 
+[2020.07.24-10.21.06:383][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.24-10.21.06:383][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.24-10.21.06:383][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.07.24-10.21.06:383][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.07.24-10.21.06:383][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.07.24-10.21.06:389][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/' took 0.01s
+[2020.07.24-10.21.08:264][  0]SourceControl: Source control is disabled
+[2020.07.24-10.21.08:265][  0]Cmd: MAP LOAD FILE="C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/MultiTanks_20x.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.24-10.21.08:268][  0]LightingResults: New page: Lighting Build
+[2020.07.24-10.21.08:292][  0]MapCheck: New page: Map Check
+[2020.07.24-10.21.08:292][  0]LightingResults: New page: Lighting Build
+[2020.07.24-10.21.08:790][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexBlueMaterial'
+[2020.07.24-10.21.08:790][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexBlueMaterial' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/MultiTanks_20x.umap.
+[2020.07.24-10.21.08:791][  0]LoadErrors: Error: /Game/Level/MultiTanks_20x : Can't find file for asset. /Game/Level/Mater/flexBlueMaterial
+[2020.07.24-10.21.08:791][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSandMaterial'
+[2020.07.24-10.21.08:792][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSandMaterial' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/MultiTanks_20x.umap.
+[2020.07.24-10.21.08:792][  0]LoadErrors: Error: /Game/Level/MultiTanks_20x : Can't find file for asset. /Game/Level/Mater/flexSandMaterial
+[2020.07.24-10.21.08:793][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialTranslucentSimple'
+[2020.07.24-10.21.08:793][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialTranslucentSimple' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/MultiTanks_20x.umap.
+[2020.07.24-10.21.08:793][  0]LoadErrors: Error: /Game/Level/MultiTanks_20x : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialTranslucentSimple
+[2020.07.24-10.21.08:793][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceSolid'
+[2020.07.24-10.21.08:794][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceSolid' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/MultiTanks_20x.umap.
+[2020.07.24-10.21.08:794][  0]LoadErrors: Error: /Game/Level/MultiTanks_20x : Can't find file for asset. /Game/Level/Mater/flexSurfaceSolid
+[2020.07.24-10.21.08:826][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
+[2020.07.24-10.21.08:826][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/Fluid/Fluid_Pump_x20.uasset.
+[2020.07.24-10.21.08:826][  0]LoadErrors: Error: /Game/Level/Fluid/Fluid_Pump_x20 : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialOpaque
+[2020.07.24-10.21.08:827][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
+[2020.07.24-10.21.08:827][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/Fluid/Fluid_Pump_x20.uasset.
+[2020.07.24-10.21.08:827][  0]LoadErrors: Error: /Game/Level/Fluid/Fluid_Pump_x20 : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialOpaque
+[2020.07.24-10.21.08:837][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
+[2020.07.24-10.21.08:838][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/Fluid/Fluid_Tank_1_x20.uasset.
+[2020.07.24-10.21.08:838][  0]LoadErrors: Error: /Game/Level/Fluid/Fluid_Tank_1_x20 : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialOpaque
+[2020.07.24-10.21.08:838][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
+[2020.07.24-10.21.08:838][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/Fluid/Fluid_Tank_1_x20.uasset.
+[2020.07.24-10.21.08:838][  0]LoadErrors: Error: /Game/Level/Fluid/Fluid_Tank_1_x20 : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialOpaque
+[2020.07.24-10.21.08:849][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
+[2020.07.24-10.21.08:849][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/Fluid/Fluid_Tank_2_x20.uasset.
+[2020.07.24-10.21.08:849][  0]LoadErrors: Error: /Game/Level/Fluid/Fluid_Tank_2_x20 : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialOpaque
+[2020.07.24-10.21.08:849][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
+[2020.07.24-10.21.08:849][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/Fluid/Fluid_Tank_2_x20.uasset.
+[2020.07.24-10.21.08:849][  0]LoadErrors: Error: /Game/Level/Fluid/Fluid_Tank_2_x20 : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialOpaque
+[2020.07.24-10.21.08:860][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
+[2020.07.24-10.21.08:860][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/Fluid/Fluid_Tank_3_x20.uasset.
+[2020.07.24-10.21.08:860][  0]LoadErrors: Error: /Game/Level/Fluid/Fluid_Tank_3_x20 : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialOpaque
+[2020.07.24-10.21.08:860][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
+[2020.07.24-10.21.08:861][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/Fluid/Fluid_Tank_3_x20.uasset.
+[2020.07.24-10.21.08:861][  0]LoadErrors: Error: /Game/Level/Fluid/Fluid_Tank_3_x20 : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialOpaque
+[2020.07.24-10.21.08:863][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexBlueMaterial'
+[2020.07.24-10.21.08:863][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexBlueMaterial' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/MultiTanks_20x.umap.
+[2020.07.24-10.21.08:863][  0]LoadErrors: Error: /Game/Level/MultiTanks_20x : Can't find file for asset. /Game/Level/Mater/flexBlueMaterial
+[2020.07.24-10.21.08:864][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSandMaterial'
+[2020.07.24-10.21.08:864][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSandMaterial' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/MultiTanks_20x.umap.
+[2020.07.24-10.21.08:864][  0]LoadErrors: Error: /Game/Level/MultiTanks_20x : Can't find file for asset. /Game/Level/Mater/flexSandMaterial
+[2020.07.24-10.21.08:864][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialTranslucentSimple'
+[2020.07.24-10.21.08:864][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialTranslucentSimple' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/MultiTanks_20x.umap.
+[2020.07.24-10.21.08:865][  0]LoadErrors: Error: /Game/Level/MultiTanks_20x : Can't find file for asset. /Game/Level/Mater/flexSurfaceMaterialTranslucentSimple
+[2020.07.24-10.21.08:865][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceSolid'
+[2020.07.24-10.21.08:865][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceSolid' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/MultiTanks_20x.umap.
+[2020.07.24-10.21.08:865][  0]LoadErrors: Error: /Game/Level/MultiTanks_20x : Can't find file for asset. /Game/Level/Mater/flexSurfaceSolid
+[2020.07.24-10.21.08:877][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexOrangeMaterial'
+[2020.07.24-10.21.08:877][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexOrangeMaterial' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/System/Multitanks_20x_Tank3Frame.uasset.
+[2020.07.24-10.21.08:877][  0]LoadErrors: Error: /Game/Level/System/Multitanks_20x_Tank3Frame : Can't find file for asset. /Game/Level/Mater/flexOrangeMaterial
+[2020.07.24-10.21.08:877][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexOrangeMaterial'
+[2020.07.24-10.21.08:878][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexOrangeMaterial' while loading C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/System/Multitanks_20x_Tank3Frame.uasset.
+[2020.07.24-10.21.08:878][  0]LoadErrors: Error: /Game/Level/System/Multitanks_20x_Tank3Frame : Can't find file for asset. /Game/Level/Mater/flexOrangeMaterial
+[2020.07.24-10.21.08:915][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexOrangeMaterial'
+[2020.07.24-10.21.08:916][  0]LoadErrors: Failed to load /Game/Level/Mater/flexOrangeMaterial.flexOrangeMaterial Referenced by Multitanks_20x_Tank3Frame
+[2020.07.24-10.21.08:916][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexOrangeMaterial' while loading NULL.
+[2020.07.24-10.21.08:916][  0]LoadErrors: Failed to load /Game/Level/Mater/flexOrangeMaterial.flexOrangeMaterial Referenced by Multitanks_20x_Tank3Frame
+[2020.07.24-10.21.08:916][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexOrangeMaterial'
+[2020.07.24-10.21.08:916][  0]LoadErrors: Failed to load /Game/Level/Mater/flexOrangeMaterial.flexOrangeMaterial Referenced by Multitanks_20x_Tank3Frame
+[2020.07.24-10.21.08:916][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexOrangeMaterial' while loading NULL.
+[2020.07.24-10.21.08:916][  0]LoadErrors: Failed to load /Game/Level/Mater/flexOrangeMaterial.flexOrangeMaterial Referenced by Multitanks_20x_Tank3Frame
+[2020.07.24-10.21.08:917][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
+[2020.07.24-10.21.08:917][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialOpaque.flexSurfaceMaterialOpaque Referenced by Fluid_Tank_3_x20
+[2020.07.24-10.21.08:917][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading NULL.
+[2020.07.24-10.21.08:917][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialOpaque.flexSurfaceMaterialOpaque Referenced by Fluid_Tank_3_x20
+[2020.07.24-10.21.08:919][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
+[2020.07.24-10.21.08:919][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialOpaque.flexSurfaceMaterialOpaque Referenced by Fluid_Tank_2_x20
+[2020.07.24-10.21.08:919][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading NULL.
+[2020.07.24-10.21.08:919][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialOpaque.flexSurfaceMaterialOpaque Referenced by Fluid_Tank_2_x20
+[2020.07.24-10.21.08:921][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
+[2020.07.24-10.21.08:921][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialOpaque.flexSurfaceMaterialOpaque Referenced by Fluid_Tank_1_x20
+[2020.07.24-10.21.08:921][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading NULL.
+[2020.07.24-10.21.08:921][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialOpaque.flexSurfaceMaterialOpaque Referenced by Fluid_Tank_1_x20
+[2020.07.24-10.21.09:023][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialOpaque'
+[2020.07.24-10.21.09:024][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialOpaque.flexSurfaceMaterialOpaque Referenced by Fluid_Pump_x20
+[2020.07.24-10.21.09:024][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialOpaque' while loading NULL.
+[2020.07.24-10.21.09:024][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialOpaque.flexSurfaceMaterialOpaque Referenced by Fluid_Pump_x20
+[2020.07.24-10.21.09:032][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSandMaterial'
+[2020.07.24-10.21.09:032][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSandMaterial.flexSandMaterial Referenced by StaticMeshComponent0
+[2020.07.24-10.21.09:032][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSandMaterial' while loading NULL.
+[2020.07.24-10.21.09:032][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSandMaterial.flexSandMaterial Referenced by StaticMeshComponent0
+[2020.07.24-10.21.09:033][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceMaterialTranslucentSimple'
+[2020.07.24-10.21.09:033][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialTranslucentSimple.flexSurfaceMaterialTranslucentSimple Referenced by StaticMeshComponent0
+[2020.07.24-10.21.09:033][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceMaterialTranslucentSimple' while loading NULL.
+[2020.07.24-10.21.09:033][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceMaterialTranslucentSimple.flexSurfaceMaterialTranslucentSimple Referenced by StaticMeshComponent0
+[2020.07.24-10.21.09:034][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexBlueMaterial'
+[2020.07.24-10.21.09:034][  0]LoadErrors: Failed to load /Game/Level/Mater/flexBlueMaterial.flexBlueMaterial Referenced by StaticMeshComponent0
+[2020.07.24-10.21.09:034][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexBlueMaterial' while loading NULL.
+[2020.07.24-10.21.09:034][  0]LoadErrors: Failed to load /Game/Level/Mater/flexBlueMaterial.flexBlueMaterial Referenced by StaticMeshComponent0
+[2020.07.24-10.21.09:034][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceSolid'
+[2020.07.24-10.21.09:034][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceSolid.flexSurfaceSolid Referenced by StaticMeshComponent0
+[2020.07.24-10.21.09:035][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceSolid' while loading NULL.
+[2020.07.24-10.21.09:035][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceSolid.flexSurfaceSolid Referenced by StaticMeshComponent0
+[2020.07.24-10.21.09:035][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceSolid'
+[2020.07.24-10.21.09:035][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceSolid.flexSurfaceSolid Referenced by StaticMeshComponent0
+[2020.07.24-10.21.09:035][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceSolid' while loading NULL.
+[2020.07.24-10.21.09:035][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceSolid.flexSurfaceSolid Referenced by StaticMeshComponent0
+[2020.07.24-10.21.09:036][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceSolid'
+[2020.07.24-10.21.09:036][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceSolid.flexSurfaceSolid Referenced by StaticMeshComponent0
+[2020.07.24-10.21.09:036][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceSolid' while loading NULL.
+[2020.07.24-10.21.09:036][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceSolid.flexSurfaceSolid Referenced by StaticMeshComponent0
+[2020.07.24-10.21.09:037][  0]LogLinker: Warning: Can't find file '/Game/Level/Mater/flexSurfaceSolid'
+[2020.07.24-10.21.09:037][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceSolid.flexSurfaceSolid Referenced by StaticMeshComponent0
+[2020.07.24-10.21.09:037][  0]LogLinker: Warning: Can't find file for asset '/Game/Level/Mater/flexSurfaceSolid' while loading NULL.
+[2020.07.24-10.21.09:037][  0]LoadErrors: Failed to load /Game/Level/Mater/flexSurfaceSolid.flexSurfaceSolid Referenced by StaticMeshComponent0
+[2020.07.24-10.21.10:361][  0]LogAIModule: Creating AISystem for world MultiTanks_20x
+[2020.07.24-10.21.10:539][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.24-10.21.10:550][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.24-10.21.10:614][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63,894ms to complete.
+[2020.07.24-10.21.10:615][  0]LogFileHelpers: Loading map 'MultiTanks_20x' took 2.351
+[2020.07.24-10.21.10:900][  0]LogCollectionManager: Loaded 0 collections in 0.001016 seconds
+[2020.07.24-10.21.10:968][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Saved/Collections/' took 0.01s
+[2020.07.24-10.21.10:968][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Developers/alexT/Collections/' took 0.01s
+[2020.07.24-10.21.10:968][  0]LogFileCache: Scanning file cache for directory 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Collections/' took 0.01s
+[2020.07.24-10.21.10:968][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.07.24-10.21.10:976][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2478 classes and 562 folders.
+[2020.07.24-10.21.11:047][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.07.24-10.21.12:054][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.07.24-10.21.12:116][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2020.07.24-10.21.12:190][  0]LogSlate: Took 0.020608 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.24-10.21.12:221][  0]LogSlate: Took 0.026286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.24-10.21.12:258][  0]LogSlate: Took 0.033561 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.24-10.21.12:392][  0]LogRenderer: Reallocating scene render targets to support 1152x488 Format 10 NumSamples 1 (Frame:1).
+[2020.07.24-10.21.12:623][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.07.24-10.21.12:623][  0]LogLoad: (Engine Initialization) Total time: 59.39 seconds
+[2020.07.24-10.21.12:623][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.24-10.21.13:059][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.07.24-10.21.13:062][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.07.24-10.21.13:641][  2]LogAssetRegistry: Asset discovery search completed in 25.5257 seconds
+[2020.07.24-10.21.13:643][  2]LogFlexEditor: FFlexEditorModule::OnFilesLoaded() ProjectFilePath = 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/UE4_Multitanks_20x.uproject'
+[2020.07.24-10.21.13:643][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.07.24-10.21.13:643][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2020.07.24-10.21.17:236][192]LogSlate: Took 0.105158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.24-10.21.17:526][210]LogSlate: Window 'Message Log' being destroyed
+[2020.07.24-10.21.17:530][210]LogSlate: Window 'Message Log' being destroyed
+[2020.07.24-10.21.24:602][628]LogSlate: Took 0.000428 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.07.24-10.21.25:668][629]LogRenderer: Reallocating scene render targets to support 1152x896 Format 10 NumSamples 1 (Frame:1).
+[2020.07.24-10.21.31:715][891]LogSlate: Window 'Multitanks_20x_Tank3Frame*' being destroyed
+[2020.07.24-10.21.31:720][891]LogSlate: Window 'Multitanks_20x_Tank3Frame*' being destroyed
+[2020.07.24-10.21.39:291][244]LogSlate: Window 'Multitanks_20x_Reservoir*' being destroyed
+[2020.07.24-10.21.39:297][244]LogSlate: Window 'Multitanks_20x_Reservoir*' being destroyed
+[2020.07.24-10.21.50:962][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Multitanks_20x)
+[2020.07.24-10.21.52:111][987]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-10.22.19:936][590]LogUObjectGlobals: Created PersistentFrame Addr=0x000001967eb528c0, Size=168, Default__DefaultBurnIn_C Function /Engine/Sequencer/DefaultBurnIn.DefaultBurnIn_C:ExecuteUbergraph_DefaultBurnIn
+[2020.07.24-10.22.20:353][590]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001967eb528c0, Size=168
+[2020.07.24-10.22.20:353][590]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019680275c00, Size=168, Default__DefaultBurnIn_C Function /Engine/Transient.REINST_DefaultBurnIn_C_0:ExecuteUbergraph_DefaultBurnIn
+[2020.07.24-10.22.20:563][590]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019645bd3040, Size=168, Default__DefaultBurnIn_C Function /Engine/Sequencer/DefaultBurnIn.DefaultBurnIn_C:ExecuteUbergraph_DefaultBurnIn
+[2020.07.24-10.22.29:543][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-10.22.44:223][973]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0002 seconds. Added 2 classes and 2 folders.
+[2020.07.24-10.22.48:991][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-10.22.49:059][198]LogSlate: Window 'Pump_x20' being destroyed
+[2020.07.24-10.22.49:064][198]LogSlate: Window 'Pump_x20' being destroyed
+[2020.07.24-10.22.49:064][198]LogCascade: Quitting Cascade. FXSystem=0x0000019671F9CEA0
+[2020.07.24-10.23.07:924][190]LogSavePackage: Save=2.67ms
+[2020.07.24-10.23.07:924][190]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Saved/Fluid_Pump_x20C6234FFA4E4E14E64E5563B56D010B6D.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/Fluid/Fluid_Pump_x20.uasset'
+[2020.07.24-10.23.07:928][190]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/Fluid/Fluid_Pump_x20.uasset
+[2020.07.24-10.23.10:467][332]LogSavePackage: Save=3.98ms
+[2020.07.24-10.23.10:467][332]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Saved/Fluid_Tank_1_x20A97FE3FD41A0181D027917B5DA93F0FB.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/Fluid/Fluid_Tank_1_x20.uasset'
+[2020.07.24-10.23.10:472][332]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/Fluid/Fluid_Tank_1_x20.uasset
+[2020.07.24-10.23.12:016][421]LogSavePackage: Save=4.09ms
+[2020.07.24-10.23.12:016][421]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Saved/Fluid_Tank_3_x203F8C668045D25BB839942A81FBEFB5D0.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/Fluid/Fluid_Tank_3_x20.uasset'
+[2020.07.24-10.23.12:021][421]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/Fluid/Fluid_Tank_3_x20.uasset
+[2020.07.24-10.23.13:345][497]LogSavePackage: Save=1.90ms
+[2020.07.24-10.23.13:345][497]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Saved/Fluid_Tank_2_x20233FBE7C498CCDC33DC4B7B3DC78C449.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/Fluid/Fluid_Tank_2_x20.uasset'
+[2020.07.24-10.23.13:349][497]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/Fluid/Fluid_Tank_2_x20.uasset
+[2020.07.24-10.23.16:882][692]LogSlate: Window 'Fluid_Tank_3_x20 - Generic Asset Editor' being destroyed
+[2020.07.24-10.23.16:885][692]LogSlate: Window 'Fluid_Tank_3_x20 - Generic Asset Editor' being destroyed
+[2020.07.24-10.23.22:853][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.07.24-10.23.28:165][358]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.07.24-10.23.29:396][431]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.07.24-10.23.34:145][706]Cmd: ACTOR SELECT ALL
+[2020.07.24-10.23.36:452][819]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-10.23.48:598][524]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2020.07.24-10.23.50:963][655]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2020.07.24-10.23.52:992][768]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2020.07.24-10.25.12:810][996]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.07.24-10.25.20:120][ 97]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019680275c00, Size=168
+[2020.07.24-10.25.20:159][ 97]LogSavePackage: Save=32.18ms
+[2020.07.24-10.25.20:159][ 97]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Saved/MultiTanks_20xBD0F9FDB4993DE9F1DFC2E85C2E6F916.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/MultiTanks_20x.umap'
+[2020.07.24-10.25.20:162][ 97]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/MultiTanks_20x.umap
+[2020.07.24-10.25.20:201][ 97]LogSavePackage: Save=18.54ms
+[2020.07.24-10.25.20:201][ 97]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Saved/MultiTanks_20x_BuiltData41AF20664ECE0986F377FEB9A4D52308.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/MultiTanks_20x_BuiltData.uasset'
+[2020.07.24-10.25.20:203][ 97]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/MultiTanks_20x_BuiltData.uasset
+[2020.07.24-10.25.34:083][745]LogSavePackage: Save=12.09ms
+[2020.07.24-10.25.34:084][745]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Saved/Multitanks_20x_ReservoirBD526DFA4C224C43DADD43B36259C4E1.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/System/Multitanks_20x_Reservoir.uasset'
+[2020.07.24-10.25.34:087][745]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/System/Multitanks_20x_Reservoir.uasset
+[2020.07.24-10.25.34:997][797]LogSlate: Window 'Multitanks_20x_Reservoir' being destroyed
+[2020.07.24-10.25.35:004][797]LogSlate: Window 'Multitanks_20x_Reservoir' being destroyed
+[2020.07.24-10.25.36:995][884]LogSavePackage: Save=13.97ms
+[2020.07.24-10.25.36:996][884]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Saved/Multitanks_20x_Tank3FrameDACDF9D048F1C9BAFF103DB5F01E15D5.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/System/Multitanks_20x_Tank3Frame.uasset'
+[2020.07.24-10.25.37:001][884]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/System/Multitanks_20x_Tank3Frame.uasset
+[2020.07.24-10.25.38:110][948]LogSlate: Window 'Multitanks_20x_Tank3Frame' being destroyed
+[2020.07.24-10.25.38:115][948]LogSlate: Window 'Multitanks_20x_Tank3Frame' being destroyed
+[2020.07.24-10.25.44:503][321]LogSavePackage: Save=43.48ms
+[2020.07.24-10.25.44:503][321]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Saved/MultiTanks_20x71ECDA5B47F10269069032A598015644.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/MultiTanks_20x.umap'
+[2020.07.24-10.25.44:505][321]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/MultiTanks_20x.umap
+[2020.07.24-10.25.44:543][321]LogSavePackage: Save=14.90ms
+[2020.07.24-10.25.44:543][321]LogSavePackage: Moving 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Saved/MultiTanks_20x_BuiltData3FE86FE24E076D73A48D24AF57A9E01C.tmp' to 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/MultiTanks_20x_BuiltData.uasset'
+[2020.07.24-10.25.44:545][321]LogSavePackage: Display: Finished SavePackage C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Level/MultiTanks_20x_BuiltData.uasset
+[2020.07.24-10.25.49:253][600]LogSlate: Window 'UE4_Multitanks_20x - Unreal Editor' being destroyed
+[2020.07.24-10.25.49:254][600]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.07.24-10.25.49:420][601]Cmd: QUIT_EDITOR
+[2020.07.24-10.25.49:451][601]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.07.24-10.25.49:451][601]LogExit: Preparing to exit.
+[2020.07.24-10.25.49:881][601]LogExit: Editor shut down
+[2020.07.24-10.25.49:885][601]LogExit: Transaction tracking system shut down
+[2020.07.24-10.25.49:890][601]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019645bd3040, Size=168
+[2020.07.24-10.25.50:018][601]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.07.24-10.25.50:019][601]LogDirectoryWatcher: A directory notification for 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/' was aborted.
+[2020.07.24-10.25.50:019][601]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2020.07.24-10.25.50:019][601]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2020.07.24-10.25.50:019][601]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2020.07.24-10.25.50:019][601]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2020.07.24-10.25.50:019][601]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2020.07.24-10.25.50:019][601]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2020.07.24-10.25.50:067][601]LogExit: Object subsystem successfully closed.
+[2020.07.24-10.25.50:104][601]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.07.24-10.25.50:108][601]LogD3D11RHI: Shutdown
+[2020.07.24-10.25.50:108][601]LogD3D11RHI: CleanupD3DDevice
+[2020.07.24-10.25.50:110][601]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.07.24-10.25.50:119][601]LogModuleManager: Shutting down and abandoning module DistCurveEditor (574)
+[2020.07.24-10.25.50:120][601]LogModuleManager: Shutting down and abandoning module Cascade (572)
+[2020.07.24-10.25.50:120][601]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (570)
+[2020.07.24-10.25.50:120][601]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (568)
+[2020.07.24-10.25.50:120][601]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (566)
+[2020.07.24-10.25.50:120][601]LogModuleManager: Shutting down and abandoning module DesktopPlatform (564)
+[2020.07.24-10.25.50:120][601]LogModuleManager: Shutting down and abandoning module SceneOutliner (562)
+[2020.07.24-10.25.50:120][601]LogModuleManager: Shutting down and abandoning module AddContentDialog (560)
+[2020.07.24-10.25.50:120][601]LogDirectoryWatcher: A directory notification for 'D:/UnrealEngine-FleX-4.19.2/UnrealEngine-FleX-4.19.2/FeaturePacks/' was aborted.
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module WidgetCarousel (559)
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module EditorWidgets (556)
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module CollectionManager (554)
+[2020.07.24-10.25.50:121][601]LogDirectoryWatcher: A directory notification for 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Collections/' was aborted.
+[2020.07.24-10.25.50:121][601]LogDirectoryWatcher: A directory notification for 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Content/Developers/alexT/Collections/' was aborted.
+[2020.07.24-10.25.50:121][601]LogDirectoryWatcher: A directory notification for 'C:/Users/alexT/OneDrive/Documents/Unreal Projects/Multitanks_fluid_simulation/UE4_Multitanks_20x/Saved/Collections/' was aborted.
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module StatsViewer (552)
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module FoliageEdit (550)
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module LandscapeEditor (548)
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module MeshPaintMode (546)
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (544)
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module ActorPickerMode (542)
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module GeometryMode (540)
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module TextureAlignMode (538)
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module BspMode (536)
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (534)
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module HardwareSurvey (532)
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (530)
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module AutomationWorker (528)
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (526)
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module SequenceRecorder (525)
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (522)
+[2020.07.24-10.25.50:121][601]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (520)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module PlacementMode (519)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module MaterialEditor (518)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (514)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (512)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (510)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (508)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (506)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (504)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (502)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (500)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (498)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (496)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module CharacterAI (494)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module SmartSnapping (492)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module SessionServices (490)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module ViewportSnapping (488)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module ViewportInteraction (486)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module ClothPainter (484)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (483)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module LogVisualizer (480)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module IntroTutorials (478)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (477)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (474)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (472)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (470)
+[2020.07.24-10.25.50:122][601]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (469)
+[2020.07.24-10.25.50:273][601]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (466)
+[2020.07.24-10.25.50:273][601]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (464)
+[2020.07.24-10.25.50:273][601]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (462)
+[2020.07.24-10.25.50:273][601]LogModuleManager: Shutting down and abandoning module InputBindingEditor (460)
+[2020.07.24-10.25.50:273][601]LogModuleManager: Shutting down and abandoning module MergeActors (458)
+[2020.07.24-10.25.50:273][601]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (456)
+[2020.07.24-10.25.50:273][601]LogModuleManager: Shutting down and abandoning module LocalizationService (455)
+[2020.07.24-10.25.50:273][601]LogModuleManager: Shutting down and abandoning module HardwareTargeting (452)
+[2020.07.24-10.25.50:273][601]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (450)
+[2020.07.24-10.25.50:273][601]LogModuleManager: Shutting down and abandoning module UndoHistory (448)
+[2020.07.24-10.25.50:273][601]LogModuleManager: Shutting down and abandoning module XmlParser (446)
+[2020.07.24-10.25.50:274][601]LogModuleManager: Shutting down and abandoning module Blutility (444)
+[2020.07.24-10.25.50:274][601]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (442)
+[2020.07.24-10.25.50:274][601]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (441)
+[2020.07.24-10.25.50:274][601]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (438)
+[2020.07.24-10.25.50:274][601]LogModuleManager: Shutting down and abandoning module SettingsEditor (436)
+[2020.07.24-10.25.50:274][601]LogModuleManager: Shutting down and abandoning module ProjectLauncher (434)
+[2020.07.24-10.25.50:274][601]LogModuleManager: Shutting down and abandoning module SessionFrontend (432)
+[2020.07.24-10.25.50:274][601]LogModuleManager: Shutting down and abandoning module ProfilerClient (430)
+[2020.07.24-10.25.50:274][601]LogModuleManager: Shutting down and abandoning module DeviceManager (428)
+[2020.07.24-10.25.50:274][601]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (427)
+[2020.07.24-10.25.50:327][601]LogModuleManager: Shutting down and abandoning module AutomationController (424)
+[2020.07.24-10.25.50:327][601]LogModuleManager: Shutting down and abandoning module AutomationWindow (422)
+[2020.07.24-10.25.50:327][601]LogModuleManager: Shutting down and abandoning module Layers (420)
+[2020.07.24-10.25.50:327][601]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (418)
+[2020.07.24-10.25.50:327][601]LogModuleManager: Shutting down and abandoning module DetailCustomizations (416)
+[2020.07.24-10.25.50:327][601]LogModuleManager: Shutting down and abandoning module PackagesDialog (414)
+[2020.07.24-10.25.50:327][601]LogModuleManager: Shutting down and abandoning module Persona (412)
+[2020.07.24-10.25.50:327][601]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (411)
+[2020.07.24-10.25.50:327][601]LogModuleManager: Shutting down and abandoning module AnimGraph (409)
+[2020.07.24-10.25.50:327][601]LogModuleManager: Shutting down and abandoning module Kismet (406)
+[2020.07.24-10.25.50:327][601]LogModuleManager: Shutting down and abandoning module GraphEditor (404)
+[2020.07.24-10.25.50:327][601]LogModuleManager: Shutting down and abandoning module ClassViewer (402)
+[2020.07.24-10.25.50:327][601]LogModuleManager: Shutting down and abandoning module Toolbox (400)
+[2020.07.24-10.25.50:328][601]LogModuleManager: Shutting down and abandoning module ModuleUI (398)
+[2020.07.24-10.25.50:328][601]LogModuleManager: Shutting down and abandoning module MovieSceneTools (396)
+[2020.07.24-10.25.50:328][601]LogModuleManager: Shutting down and abandoning module OutputLog (394)
+[2020.07.24-10.25.50:328][601]LogModuleManager: Shutting down and abandoning module GammaUI (392)
+[2020.07.24-10.25.50:328][601]LogModuleManager: Shutting down and abandoning module Documentation (390)
+[2020.07.24-10.25.50:328][601]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (388)
+[2020.07.24-10.25.50:328][601]LogModuleManager: Shutting down and abandoning module MovieScene (386)
+[2020.07.24-10.25.50:328][601]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (384)
+[2020.07.24-10.25.50:328][601]LogModuleManager: Shutting down and abandoning module LauncherPlatform (382)
+[2020.07.24-10.25.50:328][601]LogModuleManager: Shutting down and abandoning module AnalyticsET (380)
+[2020.07.24-10.25.50:328][601]LogModuleManager: Shutting down and abandoning module PortalServices (378)
+[2020.07.24-10.25.50:328][601]LogModuleManager: Shutting down and abandoning module PortalRpc (376)
+[2020.07.24-10.25.50:328][601]LogModuleManager: Shutting down and abandoning module MessagingRpc (374)
+[2020.07.24-10.25.50:328][601]LogModuleManager: Shutting down and abandoning module AIModule (372)
+[2020.07.24-10.25.50:328][601]LogModuleManager: Shutting down and abandoning module GameplayDebugger (371)
+[2020.07.24-10.25.50:328][601]LogModuleManager: Shutting down and abandoning module AITestSuite (369)
+[2020.07.24-10.25.50:328][601]LogModuleManager: Shutting down and abandoning module ProfilerService (366)
+[2020.07.24-10.25.50:578][601]LogModuleManager: Shutting down and abandoning module TaskGraph (364)
+[2020.07.24-10.25.50:578][601]LogModuleManager: Shutting down and abandoning module SteamVRController (362)
+[2020.07.24-10.25.50:578][601]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (360)
+[2020.07.24-10.25.50:578][601]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (358)
+[2020.07.24-10.25.50:578][601]LogModuleManager: Shutting down and abandoning module OculusInput (356)
+[2020.07.24-10.25.50:578][601]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (354)
+[2020.07.24-10.25.50:578][601]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (352)
+[2020.07.24-10.25.50:578][601]LogModuleManager: Shutting down and abandoning module CableComponent (350)
+[2020.07.24-10.25.50:578][601]LogModuleManager: Shutting down and abandoning module AudioCapture (348)
+[2020.07.24-10.25.50:578][601]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (346)
+[2020.07.24-10.25.50:578][601]LogModuleManager: Shutting down and abandoning module AndroidPermission (344)
+[2020.07.24-10.25.50:578][601]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (340)
+[2020.07.24-10.25.50:578][601]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (338)
+[2020.07.24-10.25.50:578][601]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (336)
+[2020.07.24-10.25.50:578][601]LogModuleManager: Shutting down and abandoning module MediaCompositing (334)
+[2020.07.24-10.25.50:579][601]LogModuleManager: Shutting down and abandoning module LinearTimecode (332)
+[2020.07.24-10.25.50:579][601]LogModuleManager: Shutting down and abandoning module ImgMedia (330)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module FlexEditor (328)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module HTML5Networking (326)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module AlembicImporter (324)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module AlembicLibrary (323)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module GeometryCache (322)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (321)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module DatasmithContent (316)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (314)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module PluginBrowser (312)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (310)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (308)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module CryptoKeys (306)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (304)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (302)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module UObjectPlugin (300)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (298)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (296)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module GitSourceControl (294)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module SourceControl (293)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (290)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (288)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (286)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (284)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module Paper2DEditor (282)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module MeshPaint (281)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (278)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (276)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module PhysXVehicles (274)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module OculusEditor (272)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (270)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (268)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (266)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module ActorSequence (264)
+[2020.07.24-10.25.50:582][601]LogModuleManager: Shutting down and abandoning module UdpMessaging (262)
+[2020.07.24-10.25.50:683][601]LogModuleManager: Shutting down and abandoning module TcpMessaging (260)
+[2020.07.24-10.25.50:783][601]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (258)
+[2020.07.24-10.25.50:783][601]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (256)
+[2020.07.24-10.25.50:783][601]LogModuleManager: Shutting down and abandoning module FacialAnimation (254)
+[2020.07.24-10.25.50:783][601]LogModuleManager: Shutting down and abandoning module DataValidation (252)
+[2020.07.24-10.25.50:784][601]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (250)
+[2020.07.24-10.25.50:784][601]LogModuleManager: Shutting down and abandoning module LevelEditor (249)
+[2020.07.24-10.25.50:784][601]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (248)
+[2020.07.24-10.25.50:784][601]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (246)
+[2020.07.24-10.25.50:784][601]LogModuleManager: Shutting down and abandoning module MainFrame (244)
+[2020.07.24-10.25.50:784][601]LogModuleManager: Shutting down and abandoning module HotReload (243)
+[2020.07.24-10.25.50:785][601]LogModuleManager: Shutting down and abandoning module ContentBrowser (239)
+[2020.07.24-10.25.50:786][601]LogModuleManager: Shutting down and abandoning module TreeMap (237)
+[2020.07.24-10.25.50:786][601]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (234)
+[2020.07.24-10.25.50:786][601]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (232)
+[2020.07.24-10.25.50:786][601]LogModuleManager: Shutting down and abandoning module LiveLink (230)
+[2020.07.24-10.25.51:730][601]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2020.07.24-10.25.51:730][601]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2020.07.24-10.25.51:730][601]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2020.07.24-10.25.51:731][601]LogModuleManager: Shutting down and abandoning module Media (223)
+[2020.07.24-10.25.51:737][601]LogModuleManager: Shutting down and abandoning module PacketHandler (220)
+[2020.07.24-10.25.51:737][601]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (218)
+[2020.07.24-10.25.51:737][601]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (216)
+[2020.07.24-10.25.51:737][601]LogModuleManager: Shutting down and abandoning module MediaAssets (214)
+[2020.07.24-10.25.51:737][601]LogModuleManager: Shutting down and abandoning module Overlay (212)
+[2020.07.24-10.25.51:737][601]LogModuleManager: Shutting down and abandoning module OverlayEditor (211)
+[2020.07.24-10.25.51:737][601]LogModuleManager: Shutting down and abandoning module VREditor (208)
+[2020.07.24-10.25.51:737][601]LogModuleManager: Shutting down and abandoning module StringTableEditor (206)
+[2020.07.24-10.25.51:737][601]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (204)
+[2020.07.24-10.25.51:737][601]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (202)
+[2020.07.24-10.25.51:737][601]LogModuleManager: Shutting down and abandoning module FunctionalTesting (200)
+[2020.07.24-10.25.51:737][601]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (198)
+[2020.07.24-10.25.51:737][601]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (197)
+[2020.07.24-10.25.51:737][601]LogModuleManager: Shutting down and abandoning module UMG (194)
+[2020.07.24-10.25.51:737][601]LogModuleManager: Shutting down and abandoning module UMGEditor (193)
+[2020.07.24-10.25.51:737][601]LogModuleManager: Shutting down and abandoning module Sequencer (192)
+[2020.07.24-10.25.51:738][601]LogModuleManager: Shutting down and abandoning module MessageLog (189)
+[2020.07.24-10.25.51:738][601]LogModuleManager: Shutting down and abandoning module SlateReflector (184)
+[2020.07.24-10.25.51:738][601]LogModuleManager: Shutting down and abandoning module Slate (182)
+[2020.07.24-10.25.51:738][601]LogModuleManager: Shutting down and abandoning module EditorStyle (180)
+[2020.07.24-10.25.51:739][601]LogModuleManager: Shutting down and abandoning module MRMesh (178)
+[2020.07.24-10.25.51:739][601]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (176)
+[2020.07.24-10.25.51:739][601]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (174)
+[2020.07.24-10.25.51:739][601]LogModuleManager: Shutting down and abandoning module XAudio2 (172)
+[2020.07.24-10.25.51:739][601]LogModuleManager: Shutting down and abandoning module Networking (170)
+[2020.07.24-10.25.51:739][601]LogModuleManager: Shutting down and abandoning module Core (168)
+[2020.07.24-10.25.51:739][601]LogModuleManager: Shutting down and abandoning module LevelSequence (166)
+[2020.07.24-10.25.51:739][601]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2020.07.24-10.25.51:739][601]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2020.07.24-10.25.51:739][601]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2020.07.24-10.25.51:739][601]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2020.07.24-10.25.51:739][601]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (159)
+[2020.07.24-10.25.51:739][601]LogModuleManager: Shutting down and abandoning module MaterialBaking (155)
+[2020.07.24-10.25.51:739][601]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2020.07.24-10.25.51:740][601]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2020.07.24-10.25.51:787][601]LogDerivedDataCache: Shutdown
+[2020.07.24-10.25.51:787][601]LogModuleManager: Shutting down and abandoning module XGEController (146)
+[2020.07.24-10.25.51:787][601]LogModuleManager: Shutting down and abandoning module TargetPlatform (144)
+[2020.07.24-10.25.51:787][601]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (143)
+[2020.07.24-10.25.51:787][601]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (141)
+[2020.07.24-10.25.51:787][601]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (139)
+[2020.07.24-10.25.51:787][601]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (137)
+[2020.07.24-10.25.51:787][601]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (135)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (133)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (131)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (129)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (127)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (125)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module ImageWrapper (124)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (121)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (119)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (117)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (115)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (113)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module Messaging (111)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (109)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (107)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (105)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (103)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (101)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (99)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (97)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (95)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (93)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (91)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (89)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (87)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (85)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (83)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (81)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (79)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (77)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (75)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (73)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (71)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module InputCore (68)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module Settings (66)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module PhysXCooking (64)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module SteamVR (62)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module OculusHMD (60)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (58)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module AppleARKit (56)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module AugmentedReality (53)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module XMPP (45)
+[2020.07.24-10.25.51:788][601]LogModuleManager: Shutting down and abandoning module HTTP (43)
+[2020.07.24-10.25.51:788][601]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.07.24-10.25.51:789][601]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6E66DD4D-48B1-A4C1-A85F-42A7A509695C%7D&AppID=UEEditor.UnrealEngine.Release&AppVersion=4.19.2-0%2B%2B%2BUE4%2BRelease-4.19&UserID=d59d918b47665de661147898f0e94d33%7C3deb6ea6431a494dbc69312300a174f8%7Cef17a412-fb75-4fb6-904e-6ca5ac2d7ba5&AppEnvironment=datacollector-source&UploadType=eteventstream] status=Processing
+[2020.07.24-10.25.51:797][601]LogModuleManager: Shutting down and abandoning module SSL (42)
+[2020.07.24-10.25.51:798][601]LogModuleManager: Shutting down and abandoning module Flex (38)
+[2020.07.24-10.25.51:798][601]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2020.07.24-10.25.51:798][601]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2020.07.24-10.25.51:798][601]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2020.07.24-10.25.51:798][601]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2020.07.24-10.25.51:798][601]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2020.07.24-10.25.51:798][601]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2020.07.24-10.25.51:798][601]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2020.07.24-10.25.51:799][601]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2020.07.24-10.25.51:799][601]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2020.07.24-10.25.51:799][601]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2020.07.24-10.25.51:799][601]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2020.07.24-10.25.51:799][601]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2020.07.24-10.25.51:799][601]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2020.07.24-10.25.51:799][601]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2020.07.24-10.25.51:799][601]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2020.07.24-10.25.51:799][601]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.07.24-10.25.51:799][601]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.07.24-10.25.51:799][601]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.07.24-10.25.51:804][601]LogExit: Exiting.
+[2020.07.24-10.25.51:812][601]Log file closed, 07/24/20 12:25:51
